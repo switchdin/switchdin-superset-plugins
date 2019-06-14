@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "./lib",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib",
+    "pretty": true,
+    "removeComments": false,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "../../node_modules/@types",
+      "../../node_modules/vega-lite/typings"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./types/**/*",
+    "../../types/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

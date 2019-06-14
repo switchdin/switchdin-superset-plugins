@@ -1,0 +1,35 @@
+{
+  "name": "@switchdin-superset/switchdin-superset-preset",
+  "version": "0.0.1",
+  "description": "SwitchDin Superset Presets Module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tbd/issues"
+  },
+  "homepage": "https://github.com/tbd/switchdin-superset-ui-plugins#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@switchdin-superset/switchdin-superset-plugin-big-number-image": "^0.0.1"
+  }
+}
