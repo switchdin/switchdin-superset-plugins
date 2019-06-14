@@ -26,7 +26,7 @@ export class SwitchDinPreset extends Preset {
       presets: [
       ],
       plugins: [
-        new BigNumberImage().configure({ key: 'big_number_image' }),
+        new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' }),
       ],
     });
   }

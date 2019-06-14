@@ -14,7 +14,7 @@ export default {
       label: t('Chart Options'),
       expanded: true,
       controlSetRows: [
-        ['image_file'],
+        ['entity'],
         ['subheader'],
         ['y_axis_format'],
       ],
@@ -26,4 +26,3 @@ export default {
     },
   },
 };
-
