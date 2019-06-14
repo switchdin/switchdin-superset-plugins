@@ -4,6 +4,7 @@ import buildQuery from './buildQuery';
 import WordCloudFormData from './WordCloudFormData';
 import transformProps from './transformProps';
 import thumbnail from './images/thumbnail.png';
+import controlPanel from './controlPanel';
 
 const metadata = new ChartMetadata({
   credits: ['https://github.com/jasondavies/d3-cloud'],
