@@ -4,18 +4,19 @@ import shortid from 'shortid';
 import { BRAND_COLOR } from '@superset-ui/color';
 import { smartDateVerboseFormatter } from '@superset-ui/time-format';
 import { computeMaxFontSize } from '@superset-ui/dimension';
+import ImageAsset from '@switchdin-superset/switchdin-superset-image-assets';
 
 import './BigNumberImage.css';
-
 
 const PROPORTION = {
   HEADER: 0.4,
   SUBHEADER: 0.1,
-  IMAGE: 1.,
+  IMAGE: 1,
 };
 
 export function renderTooltipFactory(formatValue) {
-  return function renderTooltip({ datum }) { // eslint-disable-line
+  return function renderTooltip({ datum }) {
+    // eslint-disable-line
     const { x: rawDate, y: rawValue } = datum;
     const formattedDate = smartDateVerboseFormatter(rawDate);
     const value = formatValue(rawValue);
@@ -70,7 +71,7 @@ class BigNumberImageVis extends React.PureComponent {
     const container = document.createElement('div');
     container.className = this.getClassName();
     container.style.position = 'absolute'; // so it won't disrupt page layout
-    container.style.opacity = 0;           // and not visible
+    container.style.opacity = 0; // and not visible
     return container;
   }
 
@@ -131,22 +132,13 @@ class BigNumberImageVis extends React.PureComponent {
     );
   }
 
-  renderImage(maxHeight){
-    const { imageFile } = this.props;
-    return (
-        <img src={imageFile} alt="Not Found" style={{height: maxHeight}}/>
-    );
-  }
-
   render() {
     const { height } = this.props;
     const className = this.getClassName();
     return (
       <div className={className}>
-        {this.renderImage(Math.ceil(PROPORTION.IMAGE * height))}
-        <div
-          className="text_container"
-        >
+        <ImageAsset name="house" />
+        <div className="text_container">
           {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
           {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
         </div>

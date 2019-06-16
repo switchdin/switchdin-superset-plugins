@@ -102,5 +102,7 @@
       "yarn run prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
   }
 }

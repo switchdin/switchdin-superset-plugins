@@ -1,0 +1,36 @@
+{
+  "name": "@switchdin-superset/switchdin-superset-image-assets",
+  "version": "0.0.1",
+  "description": "SwitchDin Superset Image Assets Module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tbd/issues"
+  },
+  "homepage": "https://github.com/tbd/switchdin-superset-ui-plugins#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "d3-fetch": "^1.1.2",
+    "react-svg-loader": "^3.0.3"
+  },
+  "peerDependencies": {
+  }
+}
