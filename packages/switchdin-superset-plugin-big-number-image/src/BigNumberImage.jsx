@@ -78,7 +78,7 @@ class BigNumberImageVis extends React.PureComponent {
           height: maxHeight,
         }}
       >
-        <span>{text}</span>
+        {text}
       </div>
     );
   }
@@ -113,14 +113,19 @@ class BigNumberImageVis extends React.PureComponent {
   }
 
   render() {
-    const { height } = this.props;
+    const { height, width,  bigNumber, formatBigNumber, subheader } = this.props;
     const className = this.getClassName();
+    const text = formatBigNumber(bigNumber);
     return (
       <div className={className}>
-        <ImageAsset name={this.props.imageFile} />
-        <div className="text_container">
-          {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
-          {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
+        <div className="text_container row">
+          <div className="col-sm-4">
+            <ImageAsset name={this.props.imageFile} width="100%"/>
+          </div>
+          <div className="col-sm-8">
+            <div className="col-sm-12 header_line">{this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}</div>
+            <div className="col-sm-12 subheader_line">{this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}</div>
+          </div>
         </div>
       </div>
     );

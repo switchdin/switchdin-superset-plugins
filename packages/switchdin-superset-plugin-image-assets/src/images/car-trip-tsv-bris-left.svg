@@ -1,1 +1,148 @@
-<svg width="325.44mm" height="399.987" preserveAspectRatio="xMaxYMid meet" viewBox="0 0 325.44 105.83" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h325.44v105.83H0z"/><text x="5.018" y="85.281" fill="#00b299" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif" font-size="24.829" letter-spacing="0" stroke-width=".621" word-spacing="0" style="line-height:1.25" transform="translate(-1.246 -58.648)"><tspan x="5.018" y="85.281" font-family="'-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'" font-size="14.111">TVS</tspan></text><g transform="translate(78.598 -1.052) scale(.51676)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"><g stroke="#00b299"><path data-cap="butt" d="M28 14v14M9 28h38"/><path d="M56 44h6V32a4 4 0 0 0-4-4H47l-6.848-11.985A4 4 0 0 0 36.679 14H17.638c-1.6 0-3.046.954-3.677 2.424L9 28H6a4 4 0 0 0-4 4v12h6M20 44h24"/></g><circle cx="14" cy="44" r="6" stroke="#5c646e" data-color="color-2"/><circle cx="50" cy="44" r="6" stroke="#5c646e" data-color="color-2"/></g><text x="127.435" y="85.207" fill="#00b299" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif" font-size="24.829" letter-spacing="0" stroke-width=".621" word-spacing="0" style="line-height:1.25" transform="translate(-1.246 -58.648)"><tspan x="127.435" y="85.207" font-family="'-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'" font-size="14.111">BRIS</tspan></text><path d="M36.353 25.844h86.557" fill="#5c646e" stroke="#5c646e" stroke-dasharray="7.40833333, 1.85208333" stroke-width="1.852"/><text x="22" y="116.904" fill-opacity=".622" font-family="'-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'" font-size="11.289" letter-spacing="0" stroke-width=".621" word-spacing="0" style="line-height:1.25" transform="translate(-1.246 -58.648)"><tspan x="22" y="116.904" style="line-height:5.16995811px">FROM TOWNSVILLE</tspan><tspan x="22" y="138.071" style="line-height:5.16995811px">TO BRISBANE IN AN</tspan><tspan x="22" y="159.238" style="line-height:5.16995811px">AVERAGE SIZED CAR</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="570.73145"
+   height="361.4169"
+   preserveAspectRatio="xMaxYMid meet"
+   viewBox="0 0 151.00603 95.624984"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="car-trip-tsv-bris-left.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="999"
+     id="namedview36"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.26259961"
+     inkscape:cx="55.339761"
+     inkscape:cy="180.82901"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg34" />
+  <text
+     x="-0.225776"
+     y="21.498598"
+     font-size="24.829"
+     letter-spacing="0"
+     word-spacing="0"
+     style="font-size:24.82900047px;line-height:1.25;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;letter-spacing:0;word-spacing:0;fill:#00b299;stroke-width:0.62099999"
+     id="text6">
+    <tspan
+       x="-0.225776"
+       y="21.498598"
+       font-size="14.111"
+       id="tspan4"
+       style="font-size:14.11100006px;font-family:'\'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif\''">TVS</tspan>
+  </text>
+  <g
+     transform="matrix(0.51676,0,0,0.51676,74.600224,-6.1864001)"
+     stroke-miterlimit="10"
+     id="g18"
+     style="fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
+    <g
+       id="g12"
+       style="stroke:#00b299">
+      <path
+         data-cap="butt"
+         d="M 28,14 V 28 M 9,28 h 38"
+         id="path8"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 56,44 h 6 V 32 A 4,4 0 0 0 58,28 H 47 L 40.152,16.015 A 4,4 0 0 0 36.679,14 H 17.638 c -1.6,0 -3.046,0.954 -3.677,2.424 L 9,28 H 6 a 4,4 0 0 0 -4,4 v 12 h 6 m 12,0 h 24"
+         id="path10"
+         inkscape:connector-curvature="0" />
+    </g>
+    <circle
+       cx="14"
+       cy="44"
+       r="6"
+       data-color="color-2"
+       id="circle14"
+       style="stroke:#5c646e" />
+    <circle
+       cx="50"
+       cy="44"
+       r="6"
+       data-color="color-2"
+       id="circle16"
+       style="stroke:#5c646e" />
+  </g>
+  <text
+     x="122.19122"
+     y="21.424601"
+     font-size="24.829"
+     letter-spacing="0"
+     word-spacing="0"
+     style="font-size:24.82900047px;line-height:1.25;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;letter-spacing:0;word-spacing:0;fill:#00b299;stroke-width:0.62099999"
+     id="text22">
+    <tspan
+       x="122.19122"
+       y="21.424601"
+       font-size="14.111"
+       id="tspan20"
+       style="font-size:14.11100006px;font-family:'\'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif\''">BRIS</tspan>
+  </text>
+  <path
+     d="M 32.355224,20.7096 H 118.91222"
+     id="path24"
+     inkscape:connector-curvature="0"
+     style="fill:#5c646e;stroke:#5c646e;stroke-width:1.852;stroke-dasharray:7.40833333, 1.85208333" />
+  <text
+     x="16.756224"
+     y="53.121601"
+     font-size="11.289"
+     letter-spacing="0"
+     word-spacing="0"
+     style="font-size:11.28899956px;line-height:1.25;font-family:'\'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif\'';letter-spacing:0;word-spacing:0;fill-opacity:0.622;stroke-width:0.62099999"
+     id="text32">
+    <tspan
+       x="16.756224"
+       y="53.121601"
+       style="line-height:5.16995811px"
+       id="tspan26">FROM TOWNSVILLE</tspan>
+    <tspan
+       x="16.756224"
+       y="74.288597"
+       style="line-height:5.16995811px"
+       id="tspan28">TO BRISBANE IN AN</tspan>
+    <tspan
+       x="16.756224"
+       y="95.455605"
+       style="line-height:5.16995811px"
+       id="tspan30">AVERAGE SIZED CAR</tspan>
+  </text>
+</svg>

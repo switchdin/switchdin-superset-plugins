@@ -8,19 +8,16 @@
 }
 
 .big_number .text_container {
-  position: absolute;
   left: 50%;
   min-width: 100%;
 }
 
 .big_number .header_line {
-  position: relative;
   line-height: 1em;
   font-weight: 600;
 }
 
 .big_number .header_line span {
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;

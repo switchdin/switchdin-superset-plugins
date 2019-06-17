@@ -23,11 +23,8 @@ export class SwitchDinPreset extends Preset {
   constructor() {
     super({
       name: 'SwitchDin Charts',
-      presets: [
-      ],
-      plugins: [
-        new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' }),
-      ],
+      presets: [],
+      plugins: [new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' })],
     });
   }
 }

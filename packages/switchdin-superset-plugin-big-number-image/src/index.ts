@@ -22,5 +22,5 @@ class BigNumberImageChartPlugin extends ChartPlugin {
 
 export default {
   ChartPlugin: BigNumberImageChartPlugin,
-  ControlPanel: BigNumberImageControlPanel
+  ControlPanel: BigNumberImageControlPanel,
 };
