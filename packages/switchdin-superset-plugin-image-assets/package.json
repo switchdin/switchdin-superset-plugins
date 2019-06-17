@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "d3-fetch": "^1.1.2",
-    "react-svg-loader": "^3.0.3"
+    "@superset-ui/core": "^0.11.0",
+    "@superset-ui/translation": "^0.11.0"
   },
   "peerDependencies": {
   }

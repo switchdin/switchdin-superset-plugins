@@ -5,19 +5,12 @@ export default {
     {
       label: t('Query'),
       expanded: true,
-      controlSetRows: [
-        ['metric'],
-        ['adhoc_filters'],
-      ],
+      controlSetRows: [['metric'], ['adhoc_filters']],
     },
     {
       label: t('Chart Options'),
       expanded: true,
-      controlSetRows: [
-        ['entity'],
-        ['subheader'],
-        ['y_axis_format'],
-      ],
+      controlSetRows: [['image_selection_control'], ['subheader'], ['y_axis_format']],
     },
   ],
   controlOverrides: {

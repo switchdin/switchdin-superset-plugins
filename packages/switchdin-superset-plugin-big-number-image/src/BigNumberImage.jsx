@@ -35,26 +35,6 @@ function identity(x) {
   return x;
 }
 
-const propTypes = {
-  className: PropTypes.string,
-  width: PropTypes.number.isRequired,
-  height: PropTypes.number.isRequired,
-  bigNumber: PropTypes.number.isRequired,
-  formatBigNumber: PropTypes.func,
-  subheader: PropTypes.string,
-  imageFile: PropTypes.string,
-  mainColor: PropTypes.string,
-  renderTooltip: PropTypes.func,
-};
-const defaultProps = {
-  className: '',
-  formatBigNumber: identity,
-  subheader: '',
-  imageFile: '',
-  mainColor: BRAND_COLOR,
-  renderTooltip: renderTooltipFactory(identity),
-};
-
 class BigNumberImageVis extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -137,7 +117,7 @@ class BigNumberImageVis extends React.PureComponent {
     const className = this.getClassName();
     return (
       <div className={className}>
-        <ImageAsset name="house" />
+        <ImageAsset name={this.props.imageFile} />
         <div className="text_container">
           {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
           {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
@@ -146,8 +126,5 @@ class BigNumberImageVis extends React.PureComponent {
     );
   }
 }
-
-BigNumberImageVis.propTypes = propTypes;
-BigNumberImageVis.defaultProps = defaultProps;
 
 export default BigNumberImageVis;
