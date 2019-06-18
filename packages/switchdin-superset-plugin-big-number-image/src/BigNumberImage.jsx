@@ -55,7 +55,15 @@ class BigNumberImageVis extends React.PureComponent {
     return container;
   }
 
-  renderHeader(maxHeight) {
+  calcTextAlign(imagePosition) {
+    if( imagePosition == 'left') {
+      return('right');
+    } else {
+      return('left');
+    }
+  }
+
+  renderHeader(maxHeight, imagePosition) {
     const { bigNumber, formatBigNumber, width } = this.props;
     const text = formatBigNumber(bigNumber);
 
@@ -71,6 +79,7 @@ class BigNumberImageVis extends React.PureComponent {
 
     const fontStyles = {
       fontSize: fontSize,
+      textAlign: this.calcTextAlign(imagePosition),
     }
 
     document.body.removeChild(container);
@@ -81,7 +90,7 @@ class BigNumberImageVis extends React.PureComponent {
     );
   }
 
-  renderSubheader(maxHeight) {
+  renderSubheader(maxHeight, imagePosition) {
     const { subheader, width } = this.props;
     let fontSize = 0;
     if (subheader) {
@@ -97,34 +106,45 @@ class BigNumberImageVis extends React.PureComponent {
       document.body.removeChild(container);
     }
 
+    const fontStyles = {
+      fontSize: fontSize,
+      textAlign: this.calcTextAlign(imagePosition),
+    }
+
     return (
-      <div className="subheader_line" style={{ fontSize }} >
+      <div className="subheader_line" style={fontStyles} >
         {subheader}
       </div>
     );
   }
 
   render() {
-    const { height, width,  bigNumber, formatBigNumber, subheader } = this.props;
+    const { height, width,  bigNumber, formatBigNumber, subheader, imageFile, imagePosition } = this.props;
     const className = this.getClassName();
     const text = formatBigNumber(bigNumber);
     const imageSquare = Math.min(width * 0.35, height);
+
+    // Position the image on the left of the right of the text
+    const left_of_text = imagePosition == 'left';
+    const image_entry = <td><ImageAsset name={imageFile} padding='10px' width={imageSquare} height={imageSquare}/></td>;
+
     return (
       <div className={className}>
         <div className="text_container">
           <table>
+            <tbody>
             <tr>
-              <td>
-                <ImageAsset name={this.props.imageFile} padding='10px' width={imageSquare} height={imageSquare}/>
-              </td>
+              {left_of_text && ( image_entry )}
               <td width="100%">
                 <div>
-                {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
+                {this.renderHeader(Math.ceil(PROPORTION.HEADER * height), imagePosition)}
                 <br />
-                {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
+                {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height), imagePosition)}
                 </div>
               </td>
+              {!left_of_text && ( image_entry )}
             </tr>
+            </tbody>
           </table>
         </div>
       </div>

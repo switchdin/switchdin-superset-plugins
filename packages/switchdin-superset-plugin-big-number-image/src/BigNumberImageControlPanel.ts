@@ -10,7 +10,7 @@ export default {
     {
       label: t('Chart Options'),
       expanded: true,
-      controlSetRows: [['image_selection_control'], ['subheader'], ['y_axis_format']],
+      controlSetRows: [['image_selection_control'], ['image_position_control'], ['subheader'], ['y_axis_format']],
     },
   ],
   controlOverrides: {

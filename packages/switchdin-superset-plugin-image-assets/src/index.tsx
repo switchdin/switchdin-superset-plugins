@@ -14,8 +14,8 @@ import YurikaCowboysLogo from './images/yurika-cowboys.svg';
 // These maps / functions are used to build the controls
 //
 const imageRegistry = {
-  SwitchDin: ['SwitchDin Logo', SwitchDin],
-  House: ['A House', House],
+  SwitchDin: ['SwitchDin', SwitchDin],
+  House: ['House', House],
   CarTrips: ['Car Trips', CarTrips],
   CO2Trees: ['Trees Planted', CO2Trees],
   DollarCost: ['Cost In Dollars', DollarCost],
@@ -37,12 +37,26 @@ export function getImageSelectControl() {
 // superset/assets/src/explore/controls.jsx
 //
 export const imageListControl = {
-  label: t('Icon Image'),
+  label: t('Image'),
   description: t('Choose the an Image to display with your number'),
   type: 'SelectControl',
   clearable: false,
   default: 'SwitchDin',
   choices: getImageSelectControl(),
+  renderTrigger: true,
+};
+
+export const imagePositionControl = {
+  label: t('Image Position'),
+  description: t('Choose the position of the image'),
+  type: 'SelectControl',
+  clearable: false,
+  default: 'left',
+  choices: [
+    [null, 'None'],
+    ['left', 'Left of Text'],
+    ['right','Right of Text'],
+  ],
   renderTrigger: true,
 };
 
