@@ -27,17 +27,13 @@
 .big_number .header_line {
   line-height: 1em;
   font-weight: 600;
-  text-align: left;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  text-align: right;
+  padding: 0;
 }
 
 .big_number .subheader_line {
   line-height: 1em;
-  padding-bottom: 0;
-  font-weight: 200;
-  text-align: left;
   padding: 0;
-  /* padding-top: Calculated By widget */
+  font-weight: 200;
+  text-align: right;
 }

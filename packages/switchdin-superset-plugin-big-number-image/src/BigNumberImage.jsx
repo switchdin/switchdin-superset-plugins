@@ -71,7 +71,6 @@ class BigNumberImageVis extends React.PureComponent {
 
     const fontStyles = {
       fontSize: fontSize,
-      marginTop: Math.floor(0.3 * fontSize),
     }
 
     document.body.removeChild(container);
@@ -109,20 +108,24 @@ class BigNumberImageVis extends React.PureComponent {
     const { height, width,  bigNumber, formatBigNumber, subheader } = this.props;
     const className = this.getClassName();
     const text = formatBigNumber(bigNumber);
+    const imageSquare = Math.min(width * 0.35, height);
     return (
       <div className={className}>
-        <div className="text_container row">
-          <div className="col-sm-4 image_asset_container">
-            <ImageAsset name={this.props.imageFile} width="100%" height="80%"/>
-          </div>
-          <div className="col-sm-8 text_subcontainer">
-            <div className="col-sm-12 header_line text_subcontainer">
-              {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
-            </div>
-            <div className="col-sm-12 subheader_line text_subcontainer">
-               {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
-            </div>
-          </div>
+        <div className="text_container">
+          <table>
+            <tr>
+              <td>
+                <ImageAsset name={this.props.imageFile} padding='10px' width={imageSquare} height={imageSquare}/>
+              </td>
+              <td width="100%">
+                <div>
+                {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
+                <br />
+                {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
+                </div>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     );
