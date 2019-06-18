@@ -18,13 +18,15 @@
  */
 import { Preset } from '@superset-ui/core';
 import BigNumberImage from '@switchdin-superset/switchdin-superset-plugin-big-number-image';
+import Weather from '@switchdin-superset/switchdin-superset-plugin-weather';
 
 export class SwitchDinPreset extends Preset {
   constructor() {
     super({
       name: 'SwitchDin Charts',
       presets: [],
-      plugins: [new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' })],
+      plugins: [new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' }),
+                new Weather['ChartPlugin']().configure({ key: 'weather' })],
     });
   }
 }

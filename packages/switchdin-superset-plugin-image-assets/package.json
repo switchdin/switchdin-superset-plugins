@@ -28,7 +28,6 @@
     "access": "public"
   },
   "dependencies": {
-    "d3-fetch": "^1.1.2",
     "@superset-ui/core": "^0.11.0",
     "@superset-ui/translation": "^0.11.0"
   },
