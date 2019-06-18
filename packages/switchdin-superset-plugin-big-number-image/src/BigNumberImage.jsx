@@ -63,21 +63,20 @@ class BigNumberImageVis extends React.PureComponent {
     document.body.appendChild(container);
     const fontSize = computeMaxFontSize({
       text,
-      maxWidth: Math.floor(width),
+      maxWidth: 0.6 * Math.floor(width),
       maxHeight,
       className: 'header_line',
       container,
     });
-    document.body.removeChild(container);
 
+    const fontStyles = {
+      fontSize: fontSize,
+      marginTop: Math.floor(0.3 * fontSize),
+    }
+
+    document.body.removeChild(container);
     return (
-      <div
-        className="header_line"
-        style={{
-          fontSize,
-          height: maxHeight,
-        }}
-      >
+      <div className="header_line" style={fontStyles} >
         {text}
       </div>
     );
@@ -91,7 +90,7 @@ class BigNumberImageVis extends React.PureComponent {
       document.body.appendChild(container);
       fontSize = computeMaxFontSize({
         text: subheader,
-        maxWidth: Math.floor(width),
+        maxWidth: 0.6 * Math.floor(width),
         maxHeight,
         className: 'subheader_line',
         container,
@@ -100,13 +99,7 @@ class BigNumberImageVis extends React.PureComponent {
     }
 
     return (
-      <div
-        className="subheader_line"
-        style={{
-          fontSize,
-          height: maxHeight,
-        }}
-      >
+      <div className="subheader_line" style={{ fontSize }} >
         {subheader}
       </div>
     );
@@ -119,12 +112,16 @@ class BigNumberImageVis extends React.PureComponent {
     return (
       <div className={className}>
         <div className="text_container row">
-          <div className="col-sm-4">
-            <ImageAsset name={this.props.imageFile} width="100%"/>
+          <div className="col-sm-4 image_asset_container">
+            <ImageAsset name={this.props.imageFile} width="100%" height="80%"/>
           </div>
-          <div className="col-sm-8">
-            <div className="col-sm-12 header_line">{this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}</div>
-            <div className="col-sm-12 subheader_line">{this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}</div>
+          <div className="col-sm-8 text_subcontainer">
+            <div className="col-sm-12 header_line text_subcontainer">
+              {this.renderHeader(Math.ceil(PROPORTION.HEADER * height))}
+            </div>
+            <div className="col-sm-12 subheader_line text_subcontainer">
+               {this.renderSubheader(Math.ceil(PROPORTION.SUBHEADER * height))}
+            </div>
           </div>
         </div>
       </div>
