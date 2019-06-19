@@ -1,7 +1,7 @@
 {
-  "name": "@switchdin-superset/switchdin-superset-preset",
+  "name": "@switchdin-superset/switchdin-superset-plugin-gauge",
   "version": "0.0.1",
-  "description": "SwitchDin Superset Presets Module",
+  "description": "SwitchDin Superset Gauge Plugin",
   "sideEffects": [
     "*.css"
   ],
@@ -28,10 +28,16 @@
     "access": "public"
   },
   "dependencies": {
+    "react-gauge-chart": "^0.1.7"
   },
   "peerDependencies": {
-    "@switchdin-superset/switchdin-superset-plugin-big-number-image": "^0.0.1",
-    "@switchdin-superset/switchdin-superset-plugin-weather": "^0.0.1",
-    "@switchdin-superset/switchdin-superset-plugin-gauge": "^0.0.1"
+    "@superset-ui/translation": "^0.10.0 || ^0.11.0",
+    "@superset-ui/chart": "^0.10.0 || ^0.11.0",
+    "@superset-ui/number-format": "^0.10.0 || ^0.11.0",
+    "@superset-ui/color": "^0.10.0 || ^0.11.0",
+    "shortid": "^2.2.6",
+    "prop-types": "^15.6.0",
+    "d3-format": "^1.2.0",
+    "d3-color": "^1.2.0"
   }
 }

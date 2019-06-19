@@ -9,6 +9,8 @@ import DollarCost from './images/dollar-cost-left.svg';
 import DollarSave from './images/dollar-savings-left.svg';
 import Savings from './images/savings-left.svg';
 import YurikaCowboysLogo from './images/yurika-cowboys.svg';
+import Yurika from './images/yurika-logo.svg';
+import Cowboys from './images/cowboys-logo.svg';
 
 //
 // These maps / functions are used to build the controls
@@ -21,6 +23,8 @@ const imageRegistry = {
   DollarCost: ['Cost In Dollars', DollarCost],
   DollarSave: ['Savings In Dollars', DollarSave],
   Savings: ['Energy Savings', Savings],
+  Yurika: ['Yurika', Yurika],
+  Cowboys: ['Cowboys RLFC', Cowboys],
   YurikaCowboysLogo: ['Yurika / Cowboys Logo', YurikaCowboysLogo],
 };
 
