@@ -18,7 +18,7 @@ const canvasWhiteSpace = {x: 20, y:20}
 const chartCentroid = { x: canvasDim.x / 2 , y: canvasDim.y - canvasWhiteSpace.y };
 
 // Arc Placement
-const arcOuterRadius = Math.min(canvasDim.x - canvasWhiteSpace.x, canvasDim.y - canvasWhiteSpace.y) * 0.8;
+const arcOuterRadius = Math.min(canvasDim.x - canvasWhiteSpace.x, canvasDim.y - canvasWhiteSpace.y) * 0.9;
 const arcRadius = {outer: arcOuterRadius, inner: arcOuterRadius * 0.6};
 
 // Needle Placement
@@ -162,7 +162,7 @@ class GaugeVis extends React.PureComponent {
 
     const pctProps = { textAnchor: "middle", 
                        x: chartCentroid.x, 
-                       y: chartCentroid.y - 0.7 * arcRadius.inner,
+                       y: chartCentroid.y - 0.6 * arcRadius.inner,
                        fontSize: 'x-large',
                        fontWeight: '600',
                      };

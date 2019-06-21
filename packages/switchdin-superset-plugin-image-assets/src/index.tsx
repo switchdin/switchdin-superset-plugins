@@ -11,6 +11,7 @@ import Savings from './images/savings-left.svg';
 import YurikaCowboysLogo from './images/yurika-cowboys.svg';
 import Yurika from './images/yurika-logo.svg';
 import Cowboys from './images/cowboys-logo.svg';
+import PiggyBank from './images/piggy-bank.svg';
 
 //
 // These maps / functions are used to build the controls
@@ -26,6 +27,7 @@ const imageRegistry = {
   Yurika: ['Yurika', Yurika],
   Cowboys: ['Cowboys RLFC', Cowboys],
   YurikaCowboysLogo: ['Yurika / Cowboys Logo', YurikaCowboysLogo],
+  PiggyBank: ['Piggy bank', PiggyBank],
 };
 
 export function getImageSelectControl() {

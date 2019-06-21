@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,8 +47,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.1707227"
-     inkscape:cx="548.22992"
-     inkscape:cy="225.74651"
+     inkscape:cx="551.64661"
+     inkscape:cy="222.32982"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="1"
@@ -137,16 +137,16 @@
      inkscape:connector-curvature="0"
      style="fill:none;stroke:#00b299;stroke-width:4.81668568;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
   <text
-     x="40.716503"
-     y="37.724998"
+     x="41.394505"
+     y="32.074997"
      font-size="25.65"
      letter-spacing="0"
      word-spacing="0"
      style="font-size:25.64999962px;line-height:1.25;font-family:'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;letter-spacing:0;word-spacing:0;fill-opacity:0.622;stroke-width:0.64099997"
      id="text421">
     <tspan
-       x="40.716503"
-       y="37.724998"
+       x="41.394505"
+       y="32.074997"
        id="tspan419">CO<tspan
    baseline-shift="sub"
    font-size="16.672"
