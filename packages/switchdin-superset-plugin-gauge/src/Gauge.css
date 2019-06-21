@@ -7,3 +7,21 @@
   justify-content: center;
   height: 100%;
 }
+
+.gauge .needle-needle {
+  stroke: "transparent";
+  fill: "gray";
+}
+
+.gauge .needle-base {
+  stroke: "transparent";
+  fill: "gray";
+}
+
+.gauge .text {
+}
+
+.gauge .arc {
+  stroke: "transparent";
+  fill: "gray";
+}
