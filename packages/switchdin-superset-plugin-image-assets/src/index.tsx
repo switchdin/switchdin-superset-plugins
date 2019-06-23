@@ -77,10 +77,13 @@ export default class ImageAsset extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { svg: null, }
+    this.state = { 
+      svg: null, 
+      svgName: ''
+    }
   }
 
-  componentDidMount() {
+  reloadSvg() {
     const { name } = this.props;
     const assetPath = imageRegistry[name][1];
 
@@ -90,7 +93,8 @@ export default class ImageAsset extends React.Component {
         return res.text();
       }).then(res => {
           const parsedSvg = (new DOMParser).parseFromString(res, "image/svg+xml");
-          this.setState({ svg: parsedSvg.all.childNodes });
+          const svgString = (new XMLSerializer).serializeToString(parsedSvg);
+          this.setState({ svg: svgString, svgName: name });
       });
     }
     else
@@ -99,22 +103,38 @@ export default class ImageAsset extends React.Component {
     }
   }
 
+  componentDidMount() {
+    // Initial Load
+    this.reloadSvg();
+  }
+
+  componentDidUpdate() {
+    // Reselection
+    const { name } = this.props;
+    if (name == this.state.svgName) {
+      return;
+    } else {
+      this.reloadSvg();
+    }
+  }
+
   render() {
-    // Props
+    // Rendering SVGs inline in React is a paranoid process.
+    // None of the existing libraries seem particularly good.
+    // There's a fundamental trust issue between React and anything that's loaded from the server
+    // and not statically linked in or declared.
     const { name } = this.props;
     const assetPath = imageRegistry[name][1];
 
-    if( this.state.svg )
+    if( this.state.svg === null )
     {
-      return (
-        <React.Fragment>
-         { this.state.svg }
-        </React.Fragment>
-      );
+      return <img src={assetPath} {...this.props} />
     }
     else
     {
-      return <img src={assetPath} {...this.props} />
+      return ( 
+        <div {...this.props} dangerouslySetInnerHTML={{__html: this.state.svg}} />
+      );
     }
   }
 
