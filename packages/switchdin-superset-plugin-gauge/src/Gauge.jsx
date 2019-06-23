@@ -18,7 +18,9 @@ const canvasWhiteSpace = {x: 20, y:20}
 const chartCentroid = { x: canvasDim.x / 2 , y: canvasDim.y - canvasWhiteSpace.y };
 
 // Arc Placement
-const arcOuterRadius = Math.min(canvasDim.x - canvasWhiteSpace.x, canvasDim.y - canvasWhiteSpace.y) * 0.9;
+const arcOuterRadius = Math.min(canvasDim.x - canvasWhiteSpace.x, 
+                                canvasDim.y - canvasWhiteSpace.y) * 0.8;
+
 const arcRadius = {outer: arcOuterRadius, inner: arcOuterRadius * 0.6};
 
 // Needle Placement
@@ -32,49 +34,24 @@ class GaugeVis extends React.PureComponent {
     this.myRef = React.createRef();
   }
   //
-  // colorGradient
-  //
-  generateColorStop(color, index, colorarray) {
-    const stopProps = {
-      key: index,
-      offset: ((100 * index) / (colorarray.length - 1)) + '%',
-      stopColor: `${ color }`,
-      stopOpacity: 1.0,
-    }
-
-    return <stop {...stopProps} />
-  }
-  generateColorGradient( colorScheme ) {
-    //
-    const colorFn = CategoricalColorNamespace.getScale(colorScheme);
-    const colors = colorFn.colors;
-
-    return (
-      <React.Fragment>
-        <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          {colorFn.colors.map(this.generateColorStop)}
-        </linearGradient>
-      </React.Fragment>
-    );
-  }
-  //
   // Gauge Arc
   //
   generateArcSegment(color, index, colorarray) {
     // Generates an arc segment from the colormap.
     const arcCalc = d3Arc;
-    const arcParams = { innerRadius: arcRadius.outer,
+    const arcParams = { key: index,
+                        innerRadius: arcRadius.outer,
                         outerRadius: arcRadius.inner,
                         startAngle:(index   /colorarray.length) * Math.PI,
                         endAngle: ((index+1)/colorarray.length) * Math.PI,
                       };
 
     const arcProps = { className: "arc",
-                       key: index,
+                       key: "srcseg" + index,
                        fill: `${ colorarray[index] }`,
                        fillOpacity: 0.8,
-                       cornerRadius: "5px",
-                       padAngle: 1 * Math.PI,
+                       "corner-radius": "5px",
+                       "pad-angle": 1 * Math.PI,
                        stroke: `${ colorarray[index] }`,
                        strokeWidth: "1px",
                        strokeLinejoin: "round",
@@ -94,6 +71,7 @@ class GaugeVis extends React.PureComponent {
     const colors = colorFn.colors;
     const segments = colors.length;
     const arcGroupProps = {
+      key: "arc",
       transform: `translate(${chartCentroid.x},${chartCentroid.y}) rotate(-90)`,
     };
 
@@ -194,11 +172,8 @@ class GaugeVis extends React.PureComponent {
     // Front end specified color scheme
     // Render
     return( 
-      <div ref={this.myRef} class="gauge">
+      <div ref={this.myRef} className="gauge">
         <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" style={svgProps}>
-          <defs>
-            { this.generateColorGradient(colorScheme) }
-          </defs>
           { this.generateArc(colorScheme) }
           { this.generateNeedle(percentVal) }
           { this.generateText(percentVal, data.currentVal, data.maxVal, yAxisFormat) }
