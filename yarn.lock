@@ -2007,7 +2007,7 @@
     "@nodelib/fs.stat" "2.0.1"
     run-parallel "^1.1.9"
 
-"@nodelib/fs.stat@2.0.1", "@nodelib/fs.stat@^2.0.0":
+"@nodelib/fs.stat@2.0.1", "@nodelib/fs.stat@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-2.0.1.tgz#814f71b1167390cfcb6a6b3d9cdeb0951a192c14"
   integrity sha512-+RqhBlLn6YRBGOIoVYthsG0J9dfpO79eJyN7BYBkZJtfqrBwf2KK+rD/M/yjZR6WBmIhAgOV7S60eCgaSWtbFw==
@@ -2017,7 +2017,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@nodelib/fs.walk@^1.1.0":
+"@nodelib/fs.walk@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.walk/-/fs.walk-1.2.1.tgz#9b73d8738588cc98c4806702a0850bed4fe8403c"
   integrity sha512-rMBtL6EsICU4MmZ4Kxo2r1Zx3RJgvf5AJf3ybH1zqJZrDv9hRS9hhDHS+VNdtFGQJG/vnRAk/ymZDGLxLWZFNQ==
@@ -4996,15 +4996,17 @@ eslint-plugin-promise@^4.0.1:
   integrity sha512-faAHw7uzlNPy7b45J1guyjazw28M+7gJokKUjC5JSFoYfUEyy6Gw/i7YQvmv2Yk00sUjWcmzXQLpU1Ki/C2IZQ==
 
 eslint-plugin-react@^7.11.0:
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.13.0.tgz#bc13fd7101de67996ea51b33873cd9dc2b7e5758"
-  integrity sha512-uA5LrHylu8lW/eAH3bEQe9YdzpPaFd9yAJTwTi/i/BKTD7j6aQMKVAdGM/ML72zD6womuSK7EiGtMKuK06lWjQ==
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.14.0.tgz#14f97c1add4d873fee2b6c52ac38cda96c70d1d1"
+  integrity sha512-MbPYPGsOteqqnFZx4lGLw6izxcWv6onLsil/6iX6+CaZAzMxOwsPja1Xg25cVCJ4jwKBDhJXe+ZAn6HAjGHSCw==
   dependencies:
     array-includes "^3.0.3"
     doctrine "^2.1.0"
     has "^1.0.3"
     jsx-ast-utils "^2.1.0"
+    object.entries "^1.1.0"
     object.fromentries "^2.0.0"
+    object.values "^1.1.0"
     prop-types "^15.7.2"
     resolve "^1.10.1"
 
@@ -5265,14 +5267,14 @@ fast-glob@^2.0.2, fast-glob@^2.2.6, fast-glob@^2.2.7:
     micromatch "^3.1.10"
 
 fast-glob@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.0.1.tgz#71001b8da4a60211aaad2dc3a14fa262f9fe3696"
-  integrity sha512-JEHYHd9wWKgv5nyUTahP+Wv/F3eOTCFMyCdICKAnxxDRd3rbg3opIzhs6qOOHOvP2hS6jhzPwb/I9sfWCqK84g==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.0.2.tgz#cab7aea5cb438657bbdbb118a33e6921a78f0d7f"
+  integrity sha512-L5rSdcOWQssiO7D1CWPwL9CT1ZG90PGhYQEfKOL3OC95ChQDA0S6AuP7Zi9dhaOaUihUXZ2oUlW2xeisF0nAaQ==
   dependencies:
-    "@nodelib/fs.stat" "^2.0.0"
-    "@nodelib/fs.walk" "^1.1.0"
+    "@nodelib/fs.stat" "^2.0.1"
+    "@nodelib/fs.walk" "^1.2.1"
     glob-parent "^5.0.0"
-    is-glob "^4.0.0"
+    is-glob "^4.0.1"
     merge2 "^1.2.3"
     micromatch "^4.0.2"
 
@@ -5984,9 +5986,9 @@ husky@^2.3.0:
     slash "^3.0.0"
 
 hygen@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/hygen/-/hygen-4.0.2.tgz#884c0e2a58a0d4194fba90cef9c3521f0224392b"
-  integrity sha512-xzPrDLf8DdGH4k/sK/K8xWciH8cxgPqKc12NMY50XJTirHWUhKF5EH5mmGMGduiecZmb2DXc1xdWNieXy93YpQ==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/hygen/-/hygen-4.0.4.tgz#1269f6f70224b1a58cf4397eb5b52479074c1916"
+  integrity sha512-6Hxmg1i4ZxSIg8SzjU3E3twra+0DocT+T0yPPAk9K3c6w1omWsums1toddYWvE4ZwJ/s886G2Jtg/mF79/Db6A==
   dependencies:
     chalk "^2.4.2"
     change-case "^3.1.0"

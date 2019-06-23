@@ -84,7 +84,7 @@ export default class ImageAsset extends React.Component {
   }
 
   reloadSvg() {
-    const { name } = this.props;
+    const { name, height, width } = this.props;
     const assetPath = imageRegistry[name][1];
 
     if(assetPath.endsWith('.svg'))
@@ -92,9 +92,14 @@ export default class ImageAsset extends React.Component {
       fetch(assetPath).then(res => {
         return res.text();
       }).then(res => {
-          const parsedSvg = (new DOMParser).parseFromString(res, "image/svg+xml");
-          const svgString = (new XMLSerializer).serializeToString(parsedSvg);
-          this.setState({ svg: svgString, svgName: name });
+        var parsedSvg = (new DOMParser).parseFromString(res, "image/svg+xml");
+        // resize the SVG canvas based upon the props of this widget.
+        parsedSvg.getElementsByTagName('svg')[0].style.height = height;
+        parsedSvg.getElementsByTagName('svg')[0].style.width = width;
+        // Pass back the SVG to be encoded into the document
+        const svgString = (new XMLSerializer).serializeToString(parsedSvg);
+        // this will re-tiggger the render
+        this.setState({ svg: svgString, svgName: name });
       });
     }
     else
@@ -119,10 +124,9 @@ export default class ImageAsset extends React.Component {
   }
 
   render() {
-    // Rendering SVGs inline in React is a paranoid process.
-    // None of the existing libraries seem particularly good.
+    // Rendering SVGs inline in React is a paranoid process.  None of the existing libraries seem particularly good.
     // There's a fundamental trust issue between React and anything that's loaded from the server
-    // and not statically linked in or declared.
+    // and not statically linked in or declared. So we're setting innerHTML to avoid writing an SVG parser.
     const { name } = this.props;
     const assetPath = imageRegistry[name][1];
 
