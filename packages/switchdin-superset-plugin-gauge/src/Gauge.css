@@ -8,20 +8,25 @@
   height: 100%;
 }
 
-.gauge .needle-needle {
-  stroke: "transparent";
-  fill: "gray";
+.needle-group {
+  stroke: darkgray;
+  stroke-opacity: 0.0;
 }
 
-.gauge .needle-base {
-  stroke: "transparent";
-  fill: "gray";
+.needle-needle {
+  fill: darkgray;
+  fill-opacity: 0.8;
 }
 
-.gauge .text {
+.needle-base {
+  fill: darkgray;
+  fill-opacity: 1.0;
 }
 
-.gauge .arc {
+.text {
+}
+
+.arc {
   stroke: "transparent";
   fill: "gray";
 }

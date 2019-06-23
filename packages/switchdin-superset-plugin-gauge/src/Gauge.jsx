@@ -5,6 +5,8 @@ import { getNumberFormatter } from '@superset-ui/number-format';
 import { CategoricalColorNamespace } from '@superset-ui/color';
 import { arc as d3Arc } from 'd3-shape';
 import { format as d3Format } from 'd3-format';
+import './Gauge.css';
+
 //
 // Speedo Chart Control
 //
@@ -47,7 +49,6 @@ class GaugeVis extends React.PureComponent {
                       };
 
     const arcProps = { className: "arc",
-                       key: "srcseg" + index,
                        fill: `${ colorarray[index] }`,
                        fillOpacity: 0.8,
                        "corner-radius": "5px",
@@ -59,11 +60,7 @@ class GaugeVis extends React.PureComponent {
                        d: arcCalc()(arcParams),
                      };
 
-    return (
-      <React.Fragment>
-        <path {...arcProps} />
-      </React.Fragment>
-    )
+    return ( <path key={index} {...arcProps} /> )
   }
   generateArc(colorScheme) {
     // Color Scheme
@@ -95,6 +92,7 @@ class GaugeVis extends React.PureComponent {
     const rotationDeg = 180.0 * percentVal - 90.0;
 
     const needleGroupProps = {
+      className: 'needle-group',
       transform: `translate(${chartCentroid.x},${chartCentroid.y}) rotate(${rotationDeg})`,
     };
 
@@ -111,12 +109,10 @@ class GaugeVis extends React.PureComponent {
     };
 
     return (
-      <React.Fragment>
       <g {...needleGroupProps}>
-        <circle {...needleBaseProps} />
         <path {...needleProps} />
+        <circle {...needleBaseProps} />
       </g>
-      </React.Fragment>
     );
   }
 
@@ -145,11 +141,7 @@ class GaugeVis extends React.PureComponent {
                        fontWeight: '600',
                      };
 
-    return (
-      <React.Fragment>
-          <text {...textProps} {...pctProps}><tspan>{pct}</tspan></text>
-      </React.Fragment>
-    );
+    return (<text {...textProps} {...pctProps}><tspan>{pct}</tspan></text>);
   }
 
 

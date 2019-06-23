@@ -1,5 +1,7 @@
 import React from 'react';
 import { t } from '@superset-ui/translation';
+import { xml as d3Xml  } from 'd3-fetch';
+import { svg as d3Svg  } from 'd3-fetch';
 
 import SwitchDin from './images/switchdin-logo.svg';
 import House from './images/aus-house-left.svg';
@@ -68,9 +70,52 @@ export const imagePositionControl = {
 
 //
 // This function is the loader that returns the resource.
+// It's probably not the most optimal method to use with React, We should
+// create a component and reder some state variable.  
 //
-const ImageAsset = props => {
-  var outObj = imageRegistry[props.name][1];
-  return <img src={outObj} {...props} />;
+export default class ImageAsset extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { svg: null, }
+  }
+
+  componentDidMount() {
+    const { name } = this.props;
+    const assetPath = imageRegistry[name][1];
+
+    if(assetPath.endsWith('.svg'))
+    {
+      fetch(assetPath).then(res => {
+        return res.text();
+      }).then(res => {
+          const parsedSvg = (new DOMParser).parseFromString(res, "image/svg+xml");
+          this.setState({ svg: parsedSvg.all.childNodes });
+      });
+    }
+    else
+    {
+      // pass. Leave normal images to the <img> tag.
+    }
+  }
+
+  render() {
+    // Props
+    const { name } = this.props;
+    const assetPath = imageRegistry[name][1];
+
+    if( this.state.svg )
+    {
+      return (
+        <React.Fragment>
+         { this.state.svg }
+        </React.Fragment>
+      );
+    }
+    else
+    {
+      return <img src={assetPath} {...this.props} />
+    }
+  }
+
 };
-export default ImageAsset;
