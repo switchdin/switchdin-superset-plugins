@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,8 +47,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.1707227"
-     inkscape:cx="561.10195"
-     inkscape:cy="188.27097"
+     inkscape:cx="177.57817"
+     inkscape:cy="87.478528"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="1"
@@ -65,7 +65,8 @@
        style="stroke:#5c646e;stroke-width:3.21472001" />
     <g
        id="g753"
-       style="stroke:#00b299">
+       style="stroke:#00b299"
+       class="superset_colormap_primary_stroke">
       <path
          data-color="color-2"
          d="M 73.137,50.897 H 98.854 M 73.137,70.185 H 98.854 M 73.137,89.473 h 25.717 m 12.859,0 h 6.43 m -6.43,-19.288 h 6.43 m -6.43,-19.288 h 6.43"
@@ -86,7 +87,8 @@
     <g
        stroke-miterlimit="10"
        id="g761"
-       style="fill:none;stroke:#00b299;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10">
+       style="fill:none;stroke:#00b299;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10"
+       class="superset_colormap_primary_stroke">
       <path
          d="m 16.673,80.019 c 0,4.5 3.537,8.036 8.037,8.036 h 3.215 c 4.5,0 8.036,-3.536 8.036,-8.036 0,-11.252 -19.288,-4.822 -19.288,-16.073 0,-4.501 3.537,-8.037 8.037,-8.037 h 3.215 c 4.5,0 8.036,3.536 8.036,8.037 m -9.644,24.109 v 6.43 m 0,-45.005 v 6.429"
          data-color="color-2"

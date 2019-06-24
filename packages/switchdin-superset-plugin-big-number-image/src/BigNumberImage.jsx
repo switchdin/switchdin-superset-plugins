@@ -136,10 +136,12 @@ class BigNumberImageVis extends React.PureComponent {
     this.superset_secondary_color = colors[colors.length-1];
 
     this.supersetColorStyles.innerHTML = 
-      '.superset_colormap_primary { stroke: ' + this.superset_primary_color     + ' !important;' + 
+      '.superset_colormap_primary_stroke_and_fill { stroke: ' + this.superset_primary_color     + ' !important;' + 
                                    'fill: ' + this.superset_primary_color       + ' !important;}' + 
-      '.superset_colormap_secondary { stroke: ' + this.superset_secondary_color + ' !important; ' + 
-                                   'fill: ' + this.superset_secondary_color     + ' !important;}';
+      '.superset_colormap_secondary_stroke_and_fill { stroke: ' + this.superset_secondary_color + ' !important; ' + 
+                                   'fill: ' + this.superset_secondary_color     + ' !important;}' +
+      '.superset_colormap_primary_stroke { stroke: ' + this.superset_primary_color     + ' !important; }' + 
+      '.superset_colormap_secondary_stroke { stroke: ' + this.superset_secondary_color + ' !important; }';
 
     document.getElementsByTagName('head')[0].appendChild(this.supersetColorStyles);
   }

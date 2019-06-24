@@ -38,20 +38,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="937"
-     inkscape:window-height="1044"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
      id="namedview36"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="2.9709753"
-     inkscape:cx="175.07561"
-     inkscape:cy="150.39936"
+     inkscape:zoom="1.4854877"
+     inkscape:cx="138.49"
+     inkscape:cy="38.145989"
      inkscape:window-x="0"
      inkscape:window-y="18"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg34" />
   <g
      transform="matrix(1.4928286,0,0,1.4928286,0,-17.87142)"
@@ -60,16 +60,19 @@
      style="fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
     <g
        id="g12"
-       style="stroke:#00b299">
+       style="stroke:#00b299"
+       class="￼superset_colormap_primary_stroke">
       <path
          data-cap="butt"
          d="M 28,14 V 28 M 9,28 h 38"
          id="path8"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         class="superset_colormap_primary_stroke" />
       <path
          d="m 56,44 h 6 V 32 A 4,4 0 0 0 58,28 H 47 L 40.152,16.015 A 4,4 0 0 0 36.679,14 H 17.638 c -1.6,0 -3.046,0.954 -3.677,2.424 L 9,28 H 6 a 4,4 0 0 0 -4,4 v 12 h 6 m 12,0 h 24"
          id="path10"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         class="superset_colormap_primary_stroke" />
     </g>
     <circle
        cx="14"
@@ -77,14 +80,16 @@
        r="6"
        data-color="color-2"
        id="circle14"
-       style="stroke:#5c646e" />
+       style="stroke:#5c646e"
+       class="superset_colormap_secondary_stroke" />
     <circle
        cx="50"
        cy="44"
        r="6"
        data-color="color-2"
        id="circle16"
-       style="stroke:#5c646e" />
+       style="stroke:#5c646e"
+       class="superset_colormap_secondary_stroke" />
   </g>
   <g
      style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41400003"
