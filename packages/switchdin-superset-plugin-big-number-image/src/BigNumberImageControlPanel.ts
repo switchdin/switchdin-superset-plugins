@@ -12,7 +12,7 @@ export default {
       expanded: true,
       controlSetRows: [['image_selection_control', 'image_position_control'], 
                        ['subheader'], 
-                       ['y_axis_format']],
+                       ['y_axis_format', 'color_scheme']],
     },
   ],
   controlOverrides: {

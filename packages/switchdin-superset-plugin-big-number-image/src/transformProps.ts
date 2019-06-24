@@ -4,7 +4,7 @@ import { renderTooltipFactory } from './BigNumberImage';
 export default function transformProps(chartProps) {
   const { width, height, formData, payload } = chartProps;
 
-  const { subheader = '', imageSelectionControl, imagePositionControl, timeRange, metric, yAxisFormat } = formData;
+  const { subheader = '', imageSelectionControl, imagePositionControl, timeRange, metric, yAxisFormat, colorScheme } = formData;
 
   const { data } = payload;
 
@@ -18,6 +18,7 @@ export default function transformProps(chartProps) {
     height,
     bigNumber,
     formatBigNumber: formatValue,
+    colorScheme,
     renderTooltip: renderTooltipFactory(formatValue),
     subheader: formattedSubheader,
     imageFile: imageSelectionControl,
