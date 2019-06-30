@@ -15,6 +15,11 @@ import Yurika from './images/yurika-logo.svg';
 import Cowboys from './images/cowboys-logo.svg';
 import PiggyBank from './images/piggy-bank.svg';
 
+import RichEquivalentHomePower from './images/001_EquivalentHomePower.svg';
+import RichEquivalentHomeConsumption from './images/002_EquivalentHomeConsumption.svg';
+import RichTripsToBrisbane from './images/003_TripsToBrisbane.svg';
+import RichReductionInElectricityBill from './images/004_ReductionInElectricityBills.svg';
+
 //
 // These maps / functions are used to build the controls
 //
@@ -30,6 +35,10 @@ const imageRegistry = {
   Cowboys: ['Cowboys RLFC', Cowboys],
   YurikaCowboysLogo: ['Yurika / Cowboys Logo', YurikaCowboysLogo],
   PiggyBank: ['Piggy bank', PiggyBank],
+  RichEquivalentHomePower: ['(Rich) Equiv Home Power', RichEquivalentHomePower],
+  RichEquivalentHomeConsumption: ['(Rich) Equiv Home Energy', RichEquivalentHomeConsumption],
+  RichTripsToBrisbane: ['(Rich) Trips To Brisbane', RichTripsToBrisbane],
+  RichReductionInElectricityBill: ['(Rich) Bill Reduction', RichReductionInElectricityBill],
 };
 
 export function getImageSelectControl() {
@@ -79,12 +88,13 @@ export default class ImageAsset extends React.Component {
     super(props);
     this.state = { 
       svg: null, 
-      svgName: ''
+      svgName: '',
+      svgRichProps: null
     }
   }
 
   reloadSvg() {
-    const { name, height, width } = this.props;
+    const { name, height, width, data } = this.props;
     const assetPath = imageRegistry[name][1];
 
     if(assetPath.endsWith('.svg'))
@@ -96,10 +106,15 @@ export default class ImageAsset extends React.Component {
         // resize the SVG canvas based upon the props of this widget.
         parsedSvg.getElementsByTagName('svg')[0].style.height = height;
         parsedSvg.getElementsByTagName('svg')[0].style.width = width;
+        // Update Rich Props From Data
+        for( var key in data ) {
+          const elt = parsedSvg.querySelector('#' + key);
+          if(elt != null){ elt.innerHTML = data[key]; }
+        }
         // Pass back the SVG to be encoded into the document
         const svgString = (new XMLSerializer).serializeToString(parsedSvg);
         // this will re-tiggger the render
-        this.setState({ svg: svgString, svgName: name });
+        this.setState({ svg: svgString, svgName: name, svgRichProps: data });
       });
     }
     else
@@ -115,8 +130,8 @@ export default class ImageAsset extends React.Component {
 
   componentDidUpdate() {
     // Reselection
-    const { name } = this.props;
-    if (name == this.state.svgName) {
+    const { name, data } = this.props;
+    if (name == this.state.svgName && this.state.svgRichProps == data) {
       return;
     } else {
       this.reloadSvg();

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="151.46219mm"
+   height="41.485508mm"
+   viewBox="0 0 151.46219 41.485508"
+   version="1.1"
+   id="svg6427"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="004_ReductionInElectricityBills.svg">
+  <defs
+     id="defs6421" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="135.3898"
+     inkscape:cy="86.96236"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="1920"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6424">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.481956,-54.320892)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="24.001488"
+       y="83.443451"
+       id="text6431"><tspan
+         sodipodi:role="line"
+         id="tspan6429"
+         x="24.001488"
+         y="83.443451"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.514881"
+       y="89.113083"
+       id="text6435"><tspan
+         sodipodi:role="line"
+         x="49.514881"
+         y="89.113083"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         id="tspan6437">REDUCTIONS IN ELECTRICITY BILLS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="46.157536"
+       y="81.04776"
+       id="superset_metric"><tspan
+         sodipodi:role="line"
+         id="tspan6459"
+         x="46.157536"
+         y="81.04776">56,849</tspan></text>
+    <g
+       id="g6531"
+       transform="matrix(0.06499128,0,0,0.06499128,135.85267,60.227749)">
+      <path
+         id="path6502"
+         d="m 378.35156,70.472656 c 0.21485,0.01563 0.42969,0.03125 0.64844,0.03125 0.37109,0 0.74219,-0.03125 1.10547,-0.08203 9.72265,0.199219 17.5039,8.128906 17.51562,17.851563 0,4.417968 3.58203,8 8,8 4.41797,0 8,-3.582032 8,-8 C 413.60156,72.371094 402.53125,58.613281 387,55.191406 v -7.6875 c 0,-4.417968 -3.58203,-8 -8,-8 -4.41797,0 -8,3.582032 -8,8 v 8.050782 c -16.42188,4.390624 -27.04688,20.277343 -24.83203,37.132812 2.21484,16.85547 16.58203,29.45703 33.58203,29.45703 9.87109,0 17.87109,8.00391 17.87109,17.875 0,9.86719 -8,17.87109 -17.87109,17.87109 -9.87109,0 -17.87109,-8.0039 -17.87109,-17.87109 0,-4.41797 -3.58203,-8 -8,-8 -4.41797,0 -8,3.58203 -8,8 0.0195,15.32813 10.3164,28.73828 25.12109,32.71875 v 8.76563 c 0,4.41796 3.58203,8 8,8 4.41797,0 8,-3.58204 8,-8 v -8.39844 c 16.89453,-3.69922 28.28906,-19.53516 26.42578,-36.73047 -1.85937,-17.19531 -16.37891,-30.22656 -33.67578,-30.22266 -9.59766,0.004 -17.48438,-7.574215 -17.86328,-17.164059 -0.375,-9.589843 6.89453,-17.765625 16.46484,-18.511719 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6504"
+         d="m 380.20703,0.390625 c -49.21484,0 -91.21484,32.113281 -106.94922,75.113281 H 74.699219 c -4.398438,0 -7.96875,3.964844 -8,8.359375 L 64.808594,364.50391 H 8.210938 C 3.792969,364.50391 0,367.70313 0,372.12891 v 35.61328 c 0.101562,33.52734 26.507812,61.07031 60,62.58594 v 0.17578 h 247 v -0.23438 c 2,0.0742 2.82422,0.23438 4.08984,0.23438 h 0.17188 C 345.92578,470.44922 374,442.33203 374,407.66797 v -180.0625 c 2,0.10937 4.11719,0.16797 6.1875,0.16797 62.62891,0 113.59375,-51.0625 113.59375,-113.69531 0,-62.628911 -50.94141,-113.687505 -113.57422,-113.687505 z M 63.042969,454.50391 h -0.05078 C 37.113281,454.46875 16.117188,433.54297 16,407.66016 v -27.15625 h 232 v 27.04296 c 0.0117,16.69532 6.67969,32.69922 18.52344,44.46875 0.83984,0.83985 1.88281,1.48829 2.76172,2.48829 z M 358,407.66016 c 0.004,25.83593 -20.91406,46.79296 -46.74609,46.84375 h -0.15235 C 285.16406,454.45703 264.12891,433.48828 264,407.55469 v -35.42578 c 0.0664,-2.04688 -0.71484,-4.02735 -2.16406,-5.47266 -1.44922,-1.44531 -3.42969,-2.22266 -5.47266,-2.15234 H 80.808594 L 82.644531,91.503906 H 268.81641 c -1.41797,7.324219 -2.15235,14.761714 -2.19141,22.218754 -0.0156,15.76953 3.27344,31.36328 9.65625,45.78125 h -75.5625 c -4.42188,0 -8,3.58203 -8,8 0,4.41796 3.57812,8 8,8 h 84.24219 c 16.5039,25.95312 42.88672,44.04687 73.03906,50.10156 z m 22.20703,-195.88282 c -53.89062,0 -97.58203,-43.6875 -97.57812,-97.58203 0,-53.894529 43.6875,-97.582029 97.58203,-97.582029 53.89062,0 97.57812,43.691407 97.57812,97.582029 -0.0586,53.86719 -43.71094,97.52344 -97.58203,97.58203 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6506"
+         d="m 149.36719,212.74609 c -14.1211,0 -25.60547,11.1211 -25.60547,24.79297 0,13.67188 11.48437,24.79297 25.60547,24.79297 14.12109,0 25.60937,-11.12109 25.60937,-24.79297 0,-13.67187 -11.48828,-24.79297 -25.60937,-24.79297 z m 0,33.58594 c -5.30078,0 -9.60547,-3.94531 -9.60547,-8.79297 0,-4.85156 4.30859,-8.79297 9.60547,-8.79297 5.29687,0 9.60937,3.94532 9.60937,8.79297 0,4.84766 -4.3125,8.79297 -9.60937,8.79297 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6508"
+         d="m 192.71875,237.50391 c 0,4.41796 3.57812,8 8,8 H 307.375 c 4.41797,0 8,-3.58204 8,-8 0,-4.41797 -3.58203,-8 -8,-8 H 200.71875 c -4.42188,0 -8,3.58203 -8,8 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6510"
+         d="m 149.36719,143.20312 c -14.1211,0 -25.60547,11.125 -25.60547,24.79688 0,13.67187 11.48437,24.79297 25.60547,24.79297 14.12109,0 25.60937,-11.1211 25.60937,-24.79297 0,-13.67188 -11.48828,-24.79688 -25.60937,-24.79688 z m 0,33.58985 c -5.30078,0 -9.60547,-3.94531 -9.60547,-8.79297 0,-4.84766 4.30859,-8.79688 9.60547,-8.79688 5.29687,0 9.60937,3.94532 9.60937,8.79688 0,4.84766 -4.3125,8.79687 -9.60937,8.79687 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6512"
+         d="m 149.36719,282.28125 c -14.1211,0 -25.60547,11.12109 -25.60547,24.79297 0,13.67187 11.48437,24.79297 25.60547,24.79297 14.12109,0 25.60937,-11.1211 25.60937,-24.79297 0,-13.67188 -11.48828,-24.79297 -25.60937,-24.79297 z m 0,33.58594 c -5.30078,0 -9.60547,-3.94141 -9.60547,-8.79297 0,-4.84766 4.30859,-8.79297 9.60547,-8.79297 5.29687,0 9.60937,3.94531 9.60937,8.79297 0,4.84765 -4.3125,8.79297 -9.60937,8.79297 z m 0,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6514"
+         d="M 307.375,299.50391 H 200.71875 c -4.42188,0 -8,3.58203 -8,8 0,4.41796 3.57812,8 8,8 H 307.375 c 4.41797,0 8,-3.58204 8,-8 0,-4.41797 -3.58203,-8 -8,-8 z m 0,0"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

@@ -20,6 +20,7 @@ import { Preset } from '@superset-ui/core';
 import BigNumberImage from '@switchdin-superset/switchdin-superset-plugin-big-number-image';
 import Weather from '@switchdin-superset/switchdin-superset-plugin-weather';
 import Gauge from '@switchdin-superset/switchdin-superset-plugin-gauge';
+import RichImage from '@switchdin-superset/switchdin-superset-plugin-rich-image';
 
 export class SwitchDinPreset extends Preset {
   constructor() {
@@ -28,7 +29,9 @@ export class SwitchDinPreset extends Preset {
       presets: [],
       plugins: [new BigNumberImage['ChartPlugin']().configure({ key: 'big_number_image' }),
                 new Gauge['ChartPlugin']().configure({ key: 'gauge' }),
-                new Weather['ChartPlugin']().configure({ key: 'weather' })],
+                new Weather['ChartPlugin']().configure({ key: 'weather' }),
+                new RichImage['ChartPlugin']().configure({ key: 'rich_image' }),
+      ],
     });
   }
 }

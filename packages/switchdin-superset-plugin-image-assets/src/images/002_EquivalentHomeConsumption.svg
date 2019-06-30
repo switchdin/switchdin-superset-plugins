@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120.67162mm"
+   height="56.272823mm"
+   viewBox="0 0 120.67162 56.272823"
+   version="1.1"
+   id="svg8"
+   preserveAspectRatio="xMidYMid meet"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="002_EquivalentHomeConsumption.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="89.338763"
+     inkscape:cy="109.5901"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="1920"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(3.0971645,-46.63713)">
+    <path
+       style="fill:#ffb380;stroke:#ffb380;stroke-width:0.77769035"
+       inkscape:connector-curvature="0"
+       class="st0"
+       d="m 22.356511,55.00234 c -11.198742,0 -20.219951,9.02121 -20.219951,20.219949 0,11.198741 9.021209,20.219951 20.219951,20.219951 11.198742,0 20.219949,-9.02121 20.219949,-20.219951 0,-11.198739 -9.021207,-20.219949 -20.219949,-20.219949 z"
+       id="path871" />
+    <path
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:0.77769035"
+       inkscape:connector-curvature="0"
+       class="st1"
+       d="M 33.244175,75.144521 22.356511,65.578929 11.546616,75.144521 v 13.687352 c 0,0.388843 0.311075,0.62215 0.62215,0.62215 h 6.765907 v -5.988214 c 0,-0.388846 0.311075,-0.622154 0.622153,-0.622154 h 5.599371 c 0.388843,0 0.62215,0.311076 0.62215,0.622154 v 5.988214 h 6.765907 c 0.388846,0 0.622153,-0.311075 0.622153,-0.62215 z"
+       id="path873" />
+    <polygon
+       style="fill:#ff6600;stroke:#ff6600"
+       class="st1"
+       points="75.8,46.5 70.7,46.5 70.8,49.2 61.9,41.3 61.8,41.4 61.7,41.3 42,58.9 44,61.2 61.8,45.5 79.6,61.2 81.7,58.9 75.8,53.6 "
+       id="polygon875"
+       transform="matrix(0.77769039,0,0,0.77769039,-25.704755,28.172021)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.33671999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18342236"
+       x="22.214981"
+       y="80.619324"
+       id="superset_metric"><tspan
+         sodipodi:role="line"
+         id="tspan894"
+         x="22.214981"
+         y="80.619324"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.33671999px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.18342236">00.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18342239"
+       x="65.402138"
+       y="66.369118"
+       id="text896-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan984"
+         x="65.402138"
+         y="66.369118">THE AVERAGE</tspan><tspan
+         sodipodi:role="line"
+         x="65.402138"
+         y="71.660782"
+         id="tspan2297">AUSTRALIAN</tspan><tspan
+         sodipodi:role="line"
+         x="65.402138"
+         y="76.952454"
+         id="tspan2299">HOUSEHOLD</tspan><tspan
+         sodipodi:role="line"
+         x="65.402138"
+         y="82.244118"
+         id="tspan2301">ELECTRICITY</tspan><tspan
+         sodipodi:role="line"
+         x="65.402138"
+         y="87.535782"
+         id="tspan2303">USAGE PER YEAR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1834224"
+       x="50.607056"
+       y="77.709129"
+       id="text896-0-4-7"><tspan
+         sodipodi:role="line"
+         id="tspan2337"
+         x="50.607056"
+         y="77.709129">X</tspan></text>
+  </g>
+</svg>
