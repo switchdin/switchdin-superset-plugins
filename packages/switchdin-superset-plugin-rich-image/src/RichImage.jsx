@@ -21,7 +21,7 @@ class RichImageVis extends React.PureComponent {
 
     return( 
       <div ref={this.myRef}>
-      <ImageAsset name={imageFile} padding='10px' width={width} height={height} data={chart_data}/>;
+      <ImageAsset name={imageFile} padding='10px' width={width} height={height} data={chart_data}/>
       </div>
     );
   }
