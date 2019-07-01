@@ -19,6 +19,7 @@ import RichEquivalentHomePower from './images/001_EquivalentHomePower.svg';
 import RichEquivalentHomeConsumption from './images/002_EquivalentHomeConsumption.svg';
 import RichTripsToBrisbane from './images/003_TripsToBrisbane.svg';
 import RichReductionInElectricityBill from './images/004_ReductionInElectricityBills.svg';
+import RichCo2AsTrees from './images/005_CO2_ReductionAsTrees.svg';
 
 //
 // These maps / functions are used to build the controls
@@ -39,6 +40,7 @@ const imageRegistry = {
   RichEquivalentHomeConsumption: ['(Rich) Equiv Home Energy', RichEquivalentHomeConsumption],
   RichTripsToBrisbane: ['(Rich) Trips To Brisbane', RichTripsToBrisbane],
   RichReductionInElectricityBill: ['(Rich) Bill Reduction', RichReductionInElectricityBill],
+  RichCo2AsTrees : ['(Rich) Co2 Reduction As Trees', RichCo2AsTrees],
 };
 
 export function getImageSelectControl() {

@@ -16,7 +16,11 @@ export default function transformProps(chartProps) {
         } = payload;
 
   // This chart is only good for 1 number.
-  const result = data[0][metric.label];
+  var metric_label = metric.label;
+  if(metric_label === undefined) {
+    metric_label = metric;
+  }
+  var result = data[0][metric_label];
 
   return {
     width,
