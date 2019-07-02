@@ -22,6 +22,7 @@ import RichReductionInElectricityBill from './images/004_ReductionInElectricityB
 import RichCo2AsTrees from './images/005_CO2_ReductionAsTrees.svg';
 import CowboysSolarAndCarpark from './images/006_CowboysSolarAndCarpark.svg';
 import CowboysCarpark from './images/007_CowboysCarpark.svg';
+import CowboysSolar from './images/008_CowboysSolar.svg';
 
 
 //
@@ -46,6 +47,7 @@ const imageRegistry = {
   RichCo2AsTrees : ['(Rich) Co2 Reduction As Trees', RichCo2AsTrees],
   CowboysSolarAndCarpark : ['(image) Cowboys Solar and Car Park', CowboysSolarAndCarpark],
   CowboysCarpark : ['(image) Cowboys Car Park', CowboysCarpark],
+  CowboysSolar : ['(image) Cowboys Solar', CowboysSolar],
 };
 
 export function getImageSelectControl() {
