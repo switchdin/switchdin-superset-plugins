@@ -117,7 +117,7 @@ class WeatherVis extends React.PureComponent {
       }}
     >
       <tspan x={19.633} y={90.355}>
-        {'Todays Weather Is Sunny'}
+        Todays Weather: {this.props.conditions}
       </tspan>
     </text>
     <path d="M20.88 30.697h246.69v51.945H20.88z" fill="#00b0fc" />
@@ -128,7 +128,7 @@ class WeatherVis extends React.PureComponent {
       fill="url(#prefix__c)"
     />
     <text
-      transform="translate(45.672 12.62)"
+      transform="translate(25.672 12.62)"
       x={71.483}
       y={100.39}
       fontFamily="sans-serif"
@@ -146,7 +146,7 @@ class WeatherVis extends React.PureComponent {
       }}
     >
       <tspan x={71.483} y={100.39}>
-        {'Max 35 / Min 40'}
+        Now {temp_now}&deg;C / Max {temp_max}&deg;C / Min {temp_min}&deg;C
       </tspan>
     </text>
     <path
@@ -225,7 +225,7 @@ class WeatherVis extends React.PureComponent {
           fontVariantNumeric: 'normal',
         }}
       >
-        {sunrise}
+        {sunrise} am
       </tspan>
     </text>
     <text
@@ -256,7 +256,7 @@ class WeatherVis extends React.PureComponent {
           fontVariantNumeric: 'normal',
         }}
       >
-        {sunset}
+        {sunset} pm
       </tspan>
     </text>
     <path
