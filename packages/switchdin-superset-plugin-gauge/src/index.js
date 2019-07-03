@@ -14,8 +14,17 @@ const GaugeChartControlPanel = {
     {
       label: t('Query'),
       expanded: true,
-      controlSetRows: [['metric'], 
-                       ['adhoc_filters']],
+      controlSetRows: [
+        ['metric'],
+        ['adhoc_filters'],
+      ],
+    },
+    {
+      label: t('Display Addons'),
+      expanded: true,
+      controlSetRows: [
+        ['subheader'],
+      ],
     },
     {
       label: t('Options'),
