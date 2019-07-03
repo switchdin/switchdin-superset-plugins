@@ -9,6 +9,7 @@ export default function transformProps(chartProps) {
           yAxisFormat,
           timeRange,
           colorScheme,
+          subheader = '',
         } = formData;
 
   const { data 
@@ -21,5 +22,6 @@ export default function transformProps(chartProps) {
     timeRange,
     yAxisFormat,
     data,
+    subheader,
   }
 }
