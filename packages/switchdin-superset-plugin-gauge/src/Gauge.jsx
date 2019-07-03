@@ -136,7 +136,7 @@ class GaugeVis extends React.PureComponent {
 
     const pctProps = { textAnchor: "middle", 
                        x: chartCentroid.x, 
-                       y: chartCentroid.y - 0.6 * arcRadius.inner,
+                       y: chartCentroid.y - 0.5 * arcRadius.inner,
                        fontSize: 'x-large',
                        fontWeight: '600',
                      };
@@ -144,6 +144,26 @@ class GaugeVis extends React.PureComponent {
     return (<text {...textProps} {...pctProps}><tspan>{pct}</tspan></text>);
   }
 
+  generateSubheader() {
+
+    const {subheader} = this.props;
+
+    const textGroupProps = {
+    };
+
+    const textProps = {
+      className: 'text-subheader',
+    };
+
+    const pctProps = { textAnchor: "middle", 
+                       x: chartCentroid.x, 
+                       y: chartCentroid.y - 0.2 * arcRadius.inner,
+                       fontSize: '10px',
+                       fontWeight: '400',
+                     };
+
+    return (<text {...textProps} {...pctProps}><tspan>{subheader}</tspan></text>);
+  }
 
   render() {
     // Props
@@ -169,6 +189,7 @@ class GaugeVis extends React.PureComponent {
           { this.generateArc(colorScheme) }
           { this.generateNeedle(percentVal) }
           { this.generateText(percentVal, data.currentVal, data.maxVal, yAxisFormat) }
+          { this.generateSubheader() }
         </svg>
       </div>
     );
