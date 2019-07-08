@@ -25,6 +25,7 @@ import CowboysCarpark from './images/007_CowboysCarpark.svg';
 import CowboysSolar from './images/008_CowboysSolar.svg';
 import YurikaEnoughPowerToSupply from './images/YurikaEnoughPowerToSupply.svg';
 import YurikaHouseholdConsumption from './images/YurikaTimesAverageyearlyHouseholdConsumption.svg';
+import YurikaCarTrip from './images/cowboys-car-trip.svg';
 
 
 //
@@ -52,6 +53,7 @@ const imageRegistry = {
   CowboysSolar : ['(image) Cowboys Solar', CowboysSolar],
   YurikaEnoughPowerToSupply : ['(Rich) Yurika Enough Power To Supply', YurikaEnoughPowerToSupply],
   YurikaHouseholdConsumption : ['(Rich) Yurika Household Consumption', YurikaHouseholdConsumption],
+  YurikaCarTrip : ['(Rich) Trip Town to Bris', YurikaCarTrip],
 };
 
 export function getImageSelectControl() {
