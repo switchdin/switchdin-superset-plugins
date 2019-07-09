@@ -137,79 +137,81 @@
    <path d="m1 486.71h347v-485.43h-347z" fill="#f03d51"/>
   </g>
  </defs>
- <use transform="translate(-2597.3 -769.01)" x="364.23199" y="447.4863" width="100%" height="100%" fill="#5c238f" xlink:href="#glyph1-4"/>
- <use transform="translate(-2597.3 -769.01)" x="789.60706" y="435.0166" width="100%" height="100%" fill="#ffffff" xlink:href="#glyph5-4"/>
- <use transform="translate(-1 -1.2812)" width="100%" height="100%" mask="url(#mask2)" comp-op="screen" xlink:href="#surface69433"/>
- <g fill="#fff">
-  <path d="m242.65 409.07-0.6367-0.76562c-0.1719-0.21485-4.3008-5.125-15.219-9.6094-8.9766-3.6797-16.402-4.6875-18.762-4.9258l-13-8.6719c-7.2969-4.8633-15.484-5.2656-23.938-5.2656h-55.973c-1.5391 0-2.7852 1.2461-2.7852 2.7852s1.2461 2.7852 2.7852 2.7852h55.973c9.3085 0 15.391 0.69141 20.848 4.3281l14.215 9.4766 0.7421 0.0469c0.078 8e-3 7.9805 0.57812 17.781 4.5976 7.2305 2.9688 11.012 6.0508 12.398 7.3477v15.547h-9.1445c-0.9219-7.1953-7.0156-12.793-14.457-12.793-7.168 0-13.125 5.1836-14.379 11.992h-44.277c-1.2539-6.8086-7.2109-11.992-14.379-11.992-7.3516 0-13.394 5.4609-14.43 12.527h-14.09c-1.5391 0-2.7813 1.2461-2.7813 2.7852s1.2422 2.7812 2.7813 2.7812h14.328c1.5625 6.4062 7.3125 11.195 14.191 11.195 7.0742 0 12.992-5.0468 14.352-11.727h44.332c1.3594 6.6797 7.2773 11.727 14.352 11.727 6.7812 0 12.449-4.6601 14.105-10.93h15.066zm-102.21 28.605c-5.0039 0-9.0781-4.0742-9.0781-9.082 0-5 4.0742-9.0742 9.0781-9.0742 5.0078 0 9.0781 4.0742 9.0781 9.0742 0 5.0078-4.0703 9.082-9.0781 9.082m73.035 0c-5.0078 0-9.0782-4.0742-9.0782-9.082 0-5 4.0704-9.0742 9.0782-9.0742 5.0039 0 9.0742 4.0742 9.0742 9.0742 0 5.0078-4.0703 9.082-9.0742 9.082"/>
-  <path d="m153.23 405.66h37.316c5.9453 0 9.1953-3.0977 10.184-4.9375 0.7109-1.3203 0.2187-2.9297-1.0821-3.6797-1.3125-0.77344-2.9921-0.30469-3.7812 0.97265-0.055 0.0859-1.3438 2.0781-5.3203 2.0781h-37.316c-1.5391 0-2.7813 1.2422-2.7813 2.7812s1.2422 2.7852 2.7813 2.7852"/>
-  <path d="m132.83 393.81c0-1.5391-1.2461-2.7852-2.7851-2.7852h-26.922c-1.5391 0-2.7812 1.2461-2.7812 2.7852s1.2421 2.7852 2.7812 2.7852h26.922c1.539 0 2.7851-1.2461 2.7851-2.7852"/>
-  <path d="m203.88 452.34h-26.652c-1.5391 0-2.7852 1.2422-2.7852 2.7812 0 1.5391 1.2461 2.7852 2.7852 2.7852h26.652c1.5391 0 2.7852-1.2461 2.7852-2.7852 0-1.539-1.2461-2.7812-2.7852-2.7812"/>
-  <path d="m168.7 452.6h-10.394c-1.5391 0-2.7852 1.2422-2.7852 2.7813 0 1.539 1.2461 2.7851 2.7852 2.7851h10.394c1.5391 0 2.7852-1.2461 2.7852-2.7851 0-1.5391-1.2461-2.7813-2.7852-2.7813"/>
-  <path d="m126.58 367.28h27.984c1.5391 0 2.7852-1.2422 2.7852-2.7812 0-1.5391-1.2461-2.7852-2.7852-2.7852h-27.984c-1.539 0-2.7851 1.2461-2.7851 2.7852s1.2461 2.7812 2.7851 2.7812"/>
-  <path d="m109.26 367.28h8.7969c1.5391 0 2.7812-1.2422 2.7812-2.7812 0-1.5391-1.2421-2.7852-2.7812-2.7852h-8.7969c-1.539 0-2.7851 1.2461-2.7851 2.7852s1.2461 2.7812 2.7851 2.7812"/>
-  <use transform="translate(-1130 -558.28)" x="1235.2816" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-1"/>
-  <use transform="translate(-1130 -558.28)" x="1263.7397" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-5"/>
-  <use transform="translate(-1130 -558.28)" x="1275.6722" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-6"/>
-  <use transform="translate(-1130 -558.28)" x="1316.063" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-3"/>
-  <use transform="translate(-1130 -558.28)" x="1344.4713" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-4"/>
-  <use transform="translate(-1130 -558.28)" x="1317.3984" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-4"/>
-  <use transform="translate(-1130 -558.28)" x="1389.8457" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-10"/>
-  <use transform="translate(-1130 -558.28)" x="1446.9193" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-10"/>
-  <use transform="translate(-1130 -558.28)" x="1180.7468" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
-  <use transform="translate(-1130 -558.28)" x="1219.0651" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
-  <use transform="translate(-1130 -558.28)" x="1328.9718" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
-  <use transform="translate(-1130 -558.28)" x="1402.3385" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
-  <use transform="translate(-1130 -558.28)" x="1215.4789" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-23"/>
-  <use transform="translate(-1130 -558.28)" x="1238.5302" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-13"/>
-  <use transform="translate(-1130 -558.28)" x="1249.3972" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-9"/>
-  <use transform="translate(-1130 -558.28)" x="1256.8065" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-24"/>
-  <use transform="translate(-1130 -558.28)" x="1272.9425" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-9"/>
-  <use transform="translate(-1130 -558.28)" x="1280.3518" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-12"/>
-  <use transform="translate(-1130 -558.28)" x="1298.4965" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-22"/>
-  <use transform="translate(-1130 -558.28)" x="1325.8945" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-18"/>
-  <use transform="translate(-1130 -558.28)" x="1335.2139" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-13"/>
-  <use transform="translate(-1130 -558.28)" x="1346.0808" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-11"/>
-  <use transform="translate(-1130 -558.28)" x="1364.9171" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-8"/>
-  <use transform="translate(-1130 -558.28)" x="1160.0853" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-1"/>
-  <use transform="translate(-1130 -558.28)" x="1183.4425" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-2"/>
-  <use transform="translate(-1130 -558.28)" x="1211.4906" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-3"/>
-  <use transform="translate(-1130 -558.28)" x="1249.0674" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-4"/>
-  <use transform="translate(-1130 -558.28)" x="1277.3599" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-5"/>
-  <use transform="translate(-1130 -558.28)" x="1300.6682" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-6"/>
-  <use transform="translate(-1130 -558.28)" x="1325.7356" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-7"/>
-  <use transform="translate(-1130 -558.28)" x="1338.0983" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-8"/>
-  <use transform="translate(-1130 -558.28)" x="1350.4611" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-8"/>
-  <use transform="translate(-1130 -558.28)" x="1362.8237" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-9"/>
-  <use transform="translate(-1130 -558.28)" x="1402.355" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-11"/>
-  <use transform="translate(-1130 -558.28)" x="1418.8712" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-2"/>
-  <use transform="translate(-1130 -558.28)" x="1205.4315" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-12"/>
-  <use transform="translate(-1130 -558.28)" x="1237.8286" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-13"/>
-  <use transform="translate(-1130 -558.28)" x="1255.4198" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-7"/>
-  <use transform="translate(-1130 -558.28)" x="1267.7825" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-5"/>
-  <use transform="translate(-1130 -558.28)" x="1291.0907" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-14"/>
-  <use transform="translate(-1130 -558.28)" x="1319.7253" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-15"/>
-  <use transform="translate(-1130 -558.28)" x="1346.2587" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-4"/>
-  <use transform="translate(-1130 -558.28)" x="1374.5511" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-9"/>
-  <use transform="translate(-1130 -558.28)" x="1158.4901" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-1"/>
-  <use transform="translate(-1130 -558.28)" x="1164.9434" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-2"/>
-  <use transform="translate(-1130 -558.28)" x="1188.1466" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
-  <use transform="translate(-1130 -558.28)" x="1203.2616" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-2"/>
-  <use transform="translate(-1130 -558.28)" x="1226.4647" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
-  <use transform="translate(-1130 -558.28)" x="1241.5798" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-5"/>
-  <use transform="translate(-1130 -558.28)" x="1255.6337" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
-  <use transform="translate(-1130 -558.28)" x="1271.7812" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-7"/>
-  <use transform="translate(-1130 -558.28)" x="1281.2461" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
-  <use transform="translate(-1130 -558.28)" x="1296.3611" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-8"/>
-  <use transform="translate(-1130 -558.28)" x="1312.8242" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
-  <use transform="translate(-1130 -558.28)" x="1336.3716" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-9"/>
-  <use transform="translate(-1130 -558.28)" x="1349.7084" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-1"/>
-  <use transform="translate(-1130 -558.28)" x="1356.1616" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-10"/>
-  <use transform="translate(-1130 -558.28)" x="1369.6992" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
-  <use transform="translate(-1130 -558.28)" x="1385.8468" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-11"/>
-  <use transform="translate(-1130 -558.28)" x="1409.7383" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-12"/>
-  <use transform="translate(-1130 -558.28)" x="1423.9355" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
-  <use transform="translate(-1130 -558.28)" x="1439.0505" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-7"/>
+ <g>
+  <use transform="translate(-2597.3 -769.01)" x="364.23199" y="447.4863" width="100%" height="100%" fill="#5c238f" xlink:href="#glyph1-4"/>
+  <use transform="translate(-2597.3 -769.01)" x="789.60706" y="435.0166" width="100%" height="100%" fill="#ffffff" xlink:href="#glyph5-4"/>
+  <use transform="translate(-1 -1.2812)" width="100%" height="100%" mask="url(#mask2)" comp-op="screen" xlink:href="#surface69433"/>
+  <g fill="#fff">
+   <path d="m242.65 409.07-0.6367-0.76562c-0.1719-0.21485-4.3008-5.125-15.219-9.6094-8.9766-3.6797-16.402-4.6875-18.762-4.9258l-13-8.6719c-7.2969-4.8633-15.484-5.2656-23.938-5.2656h-55.973c-1.5391 0-2.7852 1.2461-2.7852 2.7852s1.2461 2.7852 2.7852 2.7852h55.973c9.3085 0 15.391 0.69141 20.848 4.3281l14.215 9.4766 0.7421 0.0469c0.078 8e-3 7.9805 0.57812 17.781 4.5976 7.2305 2.9688 11.012 6.0508 12.398 7.3477v15.547h-9.1445c-0.9219-7.1953-7.0156-12.793-14.457-12.793-7.168 0-13.125 5.1836-14.379 11.992h-44.277c-1.2539-6.8086-7.2109-11.992-14.379-11.992-7.3516 0-13.394 5.4609-14.43 12.527h-14.09c-1.5391 0-2.7813 1.2461-2.7813 2.7852s1.2422 2.7812 2.7813 2.7812h14.328c1.5625 6.4062 7.3125 11.195 14.191 11.195 7.0742 0 12.992-5.0468 14.352-11.727h44.332c1.3594 6.6797 7.2773 11.727 14.352 11.727 6.7812 0 12.449-4.6601 14.105-10.93h15.066zm-102.21 28.605c-5.0039 0-9.0781-4.0742-9.0781-9.082 0-5 4.0742-9.0742 9.0781-9.0742 5.0078 0 9.0781 4.0742 9.0781 9.0742 0 5.0078-4.0703 9.082-9.0781 9.082m73.035 0c-5.0078 0-9.0782-4.0742-9.0782-9.082 0-5 4.0704-9.0742 9.0782-9.0742 5.0039 0 9.0742 4.0742 9.0742 9.0742 0 5.0078-4.0703 9.082-9.0742 9.082"/>
+   <path d="m153.23 405.66h37.316c5.9453 0 9.1953-3.0977 10.184-4.9375 0.7109-1.3203 0.2187-2.9297-1.0821-3.6797-1.3125-0.77344-2.9921-0.30469-3.7812 0.97265-0.055 0.0859-1.3438 2.0781-5.3203 2.0781h-37.316c-1.5391 0-2.7813 1.2422-2.7813 2.7812s1.2422 2.7852 2.7813 2.7852"/>
+   <path d="m132.83 393.81c0-1.5391-1.2461-2.7852-2.7851-2.7852h-26.922c-1.5391 0-2.7812 1.2461-2.7812 2.7852s1.2421 2.7852 2.7812 2.7852h26.922c1.539 0 2.7851-1.2461 2.7851-2.7852"/>
+   <path d="m203.88 452.34h-26.652c-1.5391 0-2.7852 1.2422-2.7852 2.7812 0 1.5391 1.2461 2.7852 2.7852 2.7852h26.652c1.5391 0 2.7852-1.2461 2.7852-2.7852 0-1.539-1.2461-2.7812-2.7852-2.7812"/>
+   <path d="m168.7 452.6h-10.394c-1.5391 0-2.7852 1.2422-2.7852 2.7813 0 1.539 1.2461 2.7851 2.7852 2.7851h10.394c1.5391 0 2.7852-1.2461 2.7852-2.7851 0-1.5391-1.2461-2.7813-2.7852-2.7813"/>
+   <path d="m126.58 367.28h27.984c1.5391 0 2.7852-1.2422 2.7852-2.7812 0-1.5391-1.2461-2.7852-2.7852-2.7852h-27.984c-1.539 0-2.7851 1.2461-2.7851 2.7852s1.2461 2.7812 2.7851 2.7812"/>
+   <path d="m109.26 367.28h8.7969c1.5391 0 2.7812-1.2422 2.7812-2.7812 0-1.5391-1.2421-2.7852-2.7812-2.7852h-8.7969c-1.539 0-2.7851 1.2461-2.7851 2.7852s1.2461 2.7812 2.7851 2.7812"/>
+   <use transform="translate(-1130 -558.28)" x="1235.2816" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-1"/>
+   <use transform="translate(-1130 -558.28)" x="1263.7397" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-5"/>
+   <use transform="translate(-1130 -558.28)" x="1275.6722" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-6"/>
+   <use transform="translate(-1130 -558.28)" x="1316.063" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-3"/>
+   <use transform="translate(-1130 -558.28)" x="1344.4713" y="888.43103" width="100%" height="100%" xlink:href="#glyph7-4"/>
+   <use transform="translate(-1130 -558.28)" x="1317.3984" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-4"/>
+   <use transform="translate(-1130 -558.28)" x="1389.8457" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-10"/>
+   <use transform="translate(-1130 -558.28)" x="1446.9193" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-10"/>
+   <use transform="translate(-1130 -558.28)" x="1180.7468" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
+   <use transform="translate(-1130 -558.28)" x="1219.0651" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
+   <use transform="translate(-1130 -558.28)" x="1328.9718" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
+   <use transform="translate(-1130 -558.28)" x="1402.3385" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-3"/>
+   <use transform="translate(-1130 -558.28)" x="1215.4789" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-23"/>
+   <use transform="translate(-1130 -558.28)" x="1238.5302" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-13"/>
+   <use transform="translate(-1130 -558.28)" x="1249.3972" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-9"/>
+   <use transform="translate(-1130 -558.28)" x="1256.8065" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-24"/>
+   <use transform="translate(-1130 -558.28)" x="1272.9425" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-9"/>
+   <use transform="translate(-1130 -558.28)" x="1280.3518" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-12"/>
+   <use transform="translate(-1130 -558.28)" x="1298.4965" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-22"/>
+   <use transform="translate(-1130 -558.28)" x="1325.8945" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-18"/>
+   <use transform="translate(-1130 -558.28)" x="1335.2139" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-13"/>
+   <use transform="translate(-1130 -558.28)" x="1346.0808" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-11"/>
+   <use transform="translate(-1130 -558.28)" x="1364.9171" y="613.44141" width="100%" height="100%" xlink:href="#glyph4-8"/>
+   <use transform="translate(-1130 -558.28)" x="1160.0853" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-1"/>
+   <use transform="translate(-1130 -558.28)" x="1183.4425" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-2"/>
+   <use transform="translate(-1130 -558.28)" x="1211.4906" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-3"/>
+   <use transform="translate(-1130 -558.28)" x="1249.0674" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-4"/>
+   <use transform="translate(-1130 -558.28)" x="1277.3599" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-5"/>
+   <use transform="translate(-1130 -558.28)" x="1300.6682" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-6"/>
+   <use transform="translate(-1130 -558.28)" x="1325.7356" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-7"/>
+   <use transform="translate(-1130 -558.28)" x="1338.0983" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-8"/>
+   <use transform="translate(-1130 -558.28)" x="1350.4611" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-8"/>
+   <use transform="translate(-1130 -558.28)" x="1362.8237" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-9"/>
+   <use transform="translate(-1130 -558.28)" x="1402.355" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-11"/>
+   <use transform="translate(-1130 -558.28)" x="1418.8712" y="661.24353" width="100%" height="100%" xlink:href="#glyph9-2"/>
+   <use transform="translate(-1130 -558.28)" x="1205.4315" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-12"/>
+   <use transform="translate(-1130 -558.28)" x="1237.8286" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-13"/>
+   <use transform="translate(-1130 -558.28)" x="1255.4198" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-7"/>
+   <use transform="translate(-1130 -558.28)" x="1267.7825" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-5"/>
+   <use transform="translate(-1130 -558.28)" x="1291.0907" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-14"/>
+   <use transform="translate(-1130 -558.28)" x="1319.7253" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-15"/>
+   <use transform="translate(-1130 -558.28)" x="1346.2587" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-4"/>
+   <use transform="translate(-1130 -558.28)" x="1374.5511" y="709.0329" width="100%" height="100%" xlink:href="#glyph9-9"/>
+   <use transform="translate(-1130 -558.28)" x="1158.4901" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-1"/>
+   <use transform="translate(-1130 -558.28)" x="1164.9434" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-2"/>
+   <use transform="translate(-1130 -558.28)" x="1188.1466" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
+   <use transform="translate(-1130 -558.28)" x="1203.2616" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-2"/>
+   <use transform="translate(-1130 -558.28)" x="1226.4647" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
+   <use transform="translate(-1130 -558.28)" x="1241.5798" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-5"/>
+   <use transform="translate(-1130 -558.28)" x="1255.6337" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
+   <use transform="translate(-1130 -558.28)" x="1271.7812" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-7"/>
+   <use transform="translate(-1130 -558.28)" x="1281.2461" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
+   <use transform="translate(-1130 -558.28)" x="1296.3611" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-8"/>
+   <use transform="translate(-1130 -558.28)" x="1312.8242" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
+   <use transform="translate(-1130 -558.28)" x="1336.3716" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-9"/>
+   <use transform="translate(-1130 -558.28)" x="1349.7084" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-1"/>
+   <use transform="translate(-1130 -558.28)" x="1356.1616" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-10"/>
+   <use transform="translate(-1130 -558.28)" x="1369.6992" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-6"/>
+   <use transform="translate(-1130 -558.28)" x="1385.8468" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-11"/>
+   <use transform="translate(-1130 -558.28)" x="1409.7383" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-12"/>
+   <use transform="translate(-1130 -558.28)" x="1423.9355" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
+   <use transform="translate(-1130 -558.28)" x="1439.0505" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-7"/>
+  </g>
+  <text id="superset_metric" x="172.06033" y="265.70151" fill="#5e2590" font-family="'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" font-size="62.733px" font-weight="bold" stroke-width="5.2277" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277">1326</tspan></tspan></text>
  </g>
- <text id="superset_metric" x="100.01567" y="265.70151" fill="#5e2590" font-family="'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" font-size="62.733px" font-weight="bold" stroke-width="5.2277" style="line-height:1.25" xml:space="preserve"><tspan x="100.01567" y="265.70151" fill="#5e2590" stroke-width="5.2277"><tspan x="100.01567" y="265.70151" fill="#5e2590" stroke-width="5.2277">1326</tspan></tspan></text>
 </svg>
