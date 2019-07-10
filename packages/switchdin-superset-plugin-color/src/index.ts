@@ -37,11 +37,11 @@ const schemes = [
   {
     id: 'yurikaColors',
     label: 'Yurika Colors',
-    colors: [ "#5a287f",
-              "#8c3a6c",
-              "#cc5154",
-              "#d06141",
-              "#d7801c",
+    colors: [ "#5e2590",
+              "#b12d76",
+              "#f03f52",
+              "#f3643d",
+              "#f68224",
              ],
   },
 ].map(s => new CategoricalScheme(s));
