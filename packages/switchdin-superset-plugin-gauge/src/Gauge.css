@@ -8,25 +8,26 @@
   height: 100%;
 }
 
-.needle-group {
-  stroke: darkgray;
-  stroke-opacity: 0.0;
-}
 
 .needle-needle {
-  fill: darkgray;
+  fill: white;
   fill-opacity: 0.8;
 }
 
 .needle-base {
-  fill: darkgray;
-  fill-opacity: 1.0;
+  fill: white;
+  fill-opacity: 1;
 }
 
-.text {
+.needle-inner-circle {
+  fill: #5e2590;
 }
 
-.arc {
-  stroke: "transparent";
-  fill: "gray";
+.needle-background {
+  fill: #dfdddd;
+  fill-opacity: 0.8;
+}
+
+.text-subheader {
+  font-size: small;
 }
