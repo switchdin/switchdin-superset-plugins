@@ -178,7 +178,7 @@ class GaugeVis extends React.PureComponent {
     };
 
     const pctProps = { 
-      transform: `translate(${chartCentroid.x},${chartCentroid.y}) rotate(0)`,
+      transform: `translate(${chartCentroid.x},${chartCentroid.y}) rotate(5)`,
       dy: -5,
     };
 
@@ -203,7 +203,7 @@ class GaugeVis extends React.PureComponent {
     // Front end specified color scheme
     // Render
     return( 
-      <div ref={this.myRef} className="gauge" style={{backgroundColor: 'rgba(252, 211, 180, .8)'}}>
+      <div ref={this.myRef} className="gauge" >
         <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" style={svgProps}>
           { this.generateArc(colorScheme) }
           { this.generateNeedle(percentVal) }
