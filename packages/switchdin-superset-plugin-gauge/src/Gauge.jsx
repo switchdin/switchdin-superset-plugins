@@ -54,10 +54,8 @@ class GaugeVis extends React.PureComponent {
 
     const arcProps = { className: "arc",
                        fill: `${ colorarray[index] }`,
-                       // "corner-radius": "10px",
-                       // "pad-angle": 5 * Math.PI,
-                       stroke: `${ colorarray[index] }`,
-                       strokeWidth: "1px",
+                       stroke: 'white',
+                       strokeWidth: "4px",
                        strokeLinejoin: "round",
                        color: `${ colorarray[index] }`,
                        d: arcCalc()(arcParams),
