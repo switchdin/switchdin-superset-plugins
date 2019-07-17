@@ -6,6 +6,7 @@ import { CategoricalColorNamespace } from '@superset-ui/color';
 import { arc as d3Arc } from 'd3-shape';
 import { format as d3Format } from 'd3-format';
 import './Gauge.css';
+import './ProximaSoftRegular.min.css';
 
 //
 // Speedo Chart Control
