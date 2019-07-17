@@ -4,6 +4,7 @@ import shortid from 'shortid';
 
 import './YurikaWeather.css';
 import './weather-icons.min.css';
+import './ProximaSoftRegular.min.css';
 
 
 const propTypes = {
@@ -512,7 +513,7 @@ class WeatherVis extends React.PureComponent {
         />
       </g>
       <g
-        fontFamily="sans-serif"
+        fontFamily="proxima_softregular"
         letterSpacing={0}
         strokeWidth={0.75}
         wordSpacing={0}
@@ -545,14 +546,14 @@ class WeatherVis extends React.PureComponent {
           </tspan>
         </text>
         <text
-          x={183.997}
+          x={208.88}
           y={399.685}
           fontSize={40}
           style={{
             lineHeight: 1.25,
           }}
         >
-          <tspan x={183.997} y={399.685}>
+          <tspan x={208.88} y={399.685}>
             {sunset}
           </tspan>
         </text>
@@ -599,7 +600,7 @@ class WeatherVis extends React.PureComponent {
         <g>
           <text 
             style={{fontSize: 180}}
-            x={500} y={170}
+            x={500} y={190}
             fontFamily={"weathericons"}
           >
           {icon_code.substring(1, icon_code.length-1)}
