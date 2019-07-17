@@ -2,6 +2,7 @@ import React from 'react';
 import { getNumberFormatter } from '@superset-ui/number-format';
 import ImageAsset from '@switchdin-superset/switchdin-superset-image-assets';
 import './RichImage.css';
+import './ProximaSoftRegular.min.css';
 
 
 class RichImageVis extends React.PureComponent {

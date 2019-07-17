@@ -212,6 +212,6 @@
    <use transform="translate(-1130 -558.28)" x="1423.9355" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-4"/>
    <use transform="translate(-1130 -558.28)" x="1439.0505" y="748.34967" width="100%" height="100%" xlink:href="#glyph10-7"/>
   </g>
-  <text id="superset_metric" x="172.06033" y="265.70151" fill="#5e2590" font-family="'-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" font-size="62.733px" font-weight="bold" stroke-width="5.2277" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277">1326</tspan></tspan></text>
+  <text id="superset_metric" x="172.06033" y="265.70151" fill="#5e2590" font-family="proxima_softregular" font-size="62.733px" font-weight="bold" stroke-width="5.2277" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277"><tspan x="172.06033" y="265.70151" fill="#5e2590" stroke-width="5.2277">1326</tspan></tspan></text>
  </g>
 </svg>

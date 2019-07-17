@@ -195,5 +195,5 @@
   <use transform="translate(-1219.5,-558.28)" x="1800.2336" y="1001.0616" width="100%" height="100%" xlink:href="#glyph2-21"/>
   <use transform="translate(-1219.5,-558.28)" x="1822.2225" y="1001.0616" width="100%" height="100%" xlink:href="#glyph2-13"/>
  </g>
- <text id="superset_metric" x="337.54242" y="295.71155" fill="#5c238f" font-family="sans-serif" font-size="56px" font-weight="bold" stroke-width=".75" text-anchor="middle" style="line-height:1.25"><tspan x="337.54242" y="295.71155" fill="#5c238f" font-family="sans-serif" font-weight="bold" stroke-width=".75"><tspan x="337.54242" y="295.71155" fill="#5c238f" font-family="sans-serif" font-weight="bold" stroke-width=".75">136</tspan></tspan></text>
+ <text id="superset_metric" x="337.54242" y="295.71155" fill="#5c238f" font-family="proxima_softregular" font-size="56px" font-weight="bold" stroke-width=".75" text-anchor="middle" style="line-height:1.25"><tspan x="337.54242" y="295.71155" fill="#5c238f" font-family="proxima_softregular" font-weight="bold" stroke-width=".75"><tspan x="337.54242" y="295.71155" fill="#5c238f" font-family="proxima_softregular" font-weight="bold" stroke-width=".75">136</tspan></tspan></text>
 </svg>

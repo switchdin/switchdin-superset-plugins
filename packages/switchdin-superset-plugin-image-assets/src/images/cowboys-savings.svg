@@ -102,6 +102,6 @@
    <use transform="translate(-975.54,-36.852)" x="1274.8458" y="251.80479" width="100%" height="100%" xlink:href="#glyph6-12"/>
    <use transform="translate(-975.54,-36.852)" x="1284.1672" y="251.80479" width="100%" height="100%" xlink:href="#glyph6-10"/>
   </g>
-  <text id="superset_metric" x="193.54375" y="107.54478" fill="#5c238f" font-family="sans-serif" font-size="80px" font-weight="bold" letter-spacing="0px" text-anchor="middle" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.54375" y="107.54478">9959</tspan></text>
+  <text id="superset_metric" x="193.54375" y="107.54478" fill="#5c238f" font-family="proxima_softregular" font-size="80px" font-weight="bold" letter-spacing="0px" text-anchor="middle" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.54375" y="107.54478">9959</tspan></text>
  </g>
 </svg>
