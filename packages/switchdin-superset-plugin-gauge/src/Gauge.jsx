@@ -199,11 +199,18 @@ class GaugeVis extends React.PureComponent {
       width: width,
     };
 
+    const rectangleProps = {
+      height: '100%',
+      width: '100%',
+      fill: 'rgba(240, 61, 81, .34)',
+    };
+
     // Front end specified color scheme
     // Render
     return( 
       <div ref={this.myRef} className="gauge" >
         <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" style={svgProps}>
+          <rect style={rectangleProps} />
           { this.generateArc(colorScheme) }
           { this.generateNeedle(percentVal) }
           { this.generateText(percentVal, data.currentVal, data.maxVal, yAxisFormat) }
