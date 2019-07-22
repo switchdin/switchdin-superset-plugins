@@ -195,8 +195,8 @@ class GaugeVis extends React.PureComponent {
 
     // SVG Size
     const svgProps = { 
-      height: height, 
-      width: width,
+      height: '100%',
+      width: '100%',
     };
 
     const rectangleProps = {
