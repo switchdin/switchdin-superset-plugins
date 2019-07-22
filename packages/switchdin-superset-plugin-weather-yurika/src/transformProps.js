@@ -22,8 +22,8 @@ export default function transformProps(chartProps) {
     country = data.sys.country;
     const now = moment().utcOffset(data.timezone / 60);
     day_week = now.format('dddd');
-    date = now.format('d MMMM YYYY');
-    time = now.format('h.mm a')
+    date = now.format('D MMMM YYYY');
+    time = now.format('h.mm a');
     sunrise_dt = moment.unix(data.sys.sunrise).utcOffset(data.timezone / 60).format('H.mm');
     sunset_dt = moment.unix(data.sys.sunset).utcOffset(data.timezone / 60).format('H.mm');
     temp_now = Math.round(data.main.temp * 10) / 10;
