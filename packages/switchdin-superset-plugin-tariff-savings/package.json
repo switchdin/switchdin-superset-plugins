@@ -1,0 +1,36 @@
+{
+  "name": "@switchdin-superset/switchdin-superset-plugin-tariff-savings",
+  "version": "0.0.1",
+  "description": "SwitchDin Superset Tariff Savings Plugin",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tbd/issues"
+  },
+  "homepage": "https://github.com/tbd/switchdin-superset-ui-plugins#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@superset-ui/translation": "^0.10.0 || ^0.11.0",
+    "@superset-ui/chart": "^0.10.0 || ^0.11.0"
+  }
+}

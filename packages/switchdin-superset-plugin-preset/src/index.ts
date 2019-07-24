@@ -22,6 +22,7 @@ import Weather from '@switchdin-superset/switchdin-superset-plugin-weather';
 import YurikaWeather from '@switchdin-superset/switchdin-superset-plugin-weather-yurika';
 import Gauge from '@switchdin-superset/switchdin-superset-plugin-gauge';
 import RichImage from '@switchdin-superset/switchdin-superset-plugin-rich-image';
+import TariffSavings from '@switchdin-superset/switchdin-superset-plugin-tariff-savings';
 
 export class SwitchDinPreset extends Preset {
   constructor() {
@@ -33,6 +34,7 @@ export class SwitchDinPreset extends Preset {
                 new Weather['ChartPlugin']().configure({ key: 'weather' }),
                 new YurikaWeather['ChartPlugin']().configure({ key: 'yurika_weather' }),
                 new RichImage['ChartPlugin']().configure({ key: 'rich_image' }),
+                new TariffSavings['ChartPlugin']().configure({ key: 'big_number_tariff' }),
       ],
     });
   }
