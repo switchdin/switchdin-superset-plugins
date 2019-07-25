@@ -87,7 +87,7 @@
    <rect width="367" height="488"/>
   </clipPath>
   <g id="surface4655" clip-path="url(#clip4)">
-   <path d="m1 486.71h365v-485.43h-365z" fill="#f03d51"/>
+   <path d="m1 486.71h365v-485.43h-365z" fill="rgb(225,155,158)"/>
   </g>
   <clipPath>
    <rect width="555" height="556"/>

@@ -16,11 +16,11 @@
  <g transform="translate(.018862 -.068063)">
   <g transform="matrix(.85826 0 0 -1.432 -242.05 1493.8)">
    <g clip-path="url(#clipPath1183)" opacity=".34">
-    <path d="m282 557.72h653v485.43h-653z" fill="#f03f52"/>
+    <path d="m282 557.72h653v485.43h-653z" fill="rgb(225,155,158)"/>
    </g>
   </g>
   <g transform="matrix(1.3333,0,0,-1.3333,-686.21,1390.9)" clip-path="url(#clipPath1437)">
-   <g clip-path="url(#clipPath1441)" opacity=".49001">
+   <g clip-path="url(#clipPath1441)" opacity=".34">
     <g transform="translate(825.92,879.45)">
      <path d="m0 0c0-57.587-46.385-104.27-103.6-104.27-57.219 0-103.6 46.684-103.6 104.27s46.385 104.27 103.6 104.27c57.22 0 103.6-46.683 103.6-104.27" fill="#bdbcbc"/>
     </g>

@@ -202,7 +202,7 @@ class GaugeVis extends React.PureComponent {
     const rectangleProps = {
       height: '100%',
       width: '100%',
-      fill: 'rgba(240, 61, 81, .34)',
+      fill: 'rgba(225,155,158, .34)',
     };
 
     // Front end specified color scheme

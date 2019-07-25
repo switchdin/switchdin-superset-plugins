@@ -72,7 +72,7 @@
    <rect width="667" height="488"/>
   </clipPath>
   <g id="surface333674" clip-path="url(#clip2)">
-   <path d="m1.4609 486.71h663.69v-485.43h-663.69z" fill="#f03d51"/>
+   <path d="m1.4609 486.71h663.69v-485.43h-663.69z" fill="rgb(225,155,158)"/>
   </g>
   <clipPath>
    <rect width="555" height="556"/>
@@ -82,7 +82,7 @@
   </clipPath>
   <mask id="mask4">
    <g filter="url(#alpha)">
-    <rect width="245" height="247" fill-opacity=".49001"/>
+    <rect width="245" height="247" fill-opacity=".34"/>
    </g>
   </mask>
   <clipPath id="clip10">

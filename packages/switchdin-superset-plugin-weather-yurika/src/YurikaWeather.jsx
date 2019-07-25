@@ -132,7 +132,7 @@ class WeatherVis extends React.PureComponent {
         <path d="M0 0h1082v489H0z" />
       </clipPath>
       <g id="prefix__d" clipPath="url(#prefix__b)">
-        <path d="M1 487.28h1079.7V1.85H1z" fill="#f03d51" />
+        <path d="M1 487.28h1079.7V1.85H1z" fill="rgb(225,155,158)" />
       </g>
     </defs>
     <use
@@ -142,7 +142,7 @@ class WeatherVis extends React.PureComponent {
       mask="url(#prefix__c)"
       xlinkHref="#prefix__d"
     />
-    <g fill="#5c238f" transform="translate(-571.99 -63.169)">
+    <g fill="rgb(225,155,158)" transform="translate(-571.99 -63.169)">
       <use
         x={156.581}
         y={378.478}
