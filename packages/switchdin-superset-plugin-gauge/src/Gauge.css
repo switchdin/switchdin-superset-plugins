@@ -30,4 +30,6 @@
 
 .text-subheader {
   font-size: smaller;
+  fill: #5e2590;
+  font-weight: 600;
 }
