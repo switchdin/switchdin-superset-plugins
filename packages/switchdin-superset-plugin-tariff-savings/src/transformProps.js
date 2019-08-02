@@ -16,9 +16,9 @@ export default function transformProps(chartProps) {
         } = payload;
 
   // This chart is only good for 1 number.
-  let formattedSubheader = subheader;
-  // var result = data;
-  var result = formattedSubheader;
+  // let formattedSubheader = subheader;
+  var result = data;
+  // var result = formattedSubheader;
 
   return {
     width,
