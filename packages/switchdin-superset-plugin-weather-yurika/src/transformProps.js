@@ -1,8 +1,8 @@
 import moment from 'moment';
 
 export default function transformProps(chartProps) {
-  const { width, height, formData, payload } = chartProps;
-  const { data } = payload;
+  const { width, height, formData, queryData } = chartProps;
+  const { data } = queryData;
 
   let className = '';
   let city;
@@ -24,12 +24,18 @@ export default function transformProps(chartProps) {
     day_week = now.format('dddd');
     date = now.format('D MMMM YYYY');
     time = now.format('h.mm a');
-    sunrise_dt = moment.unix(data.sys.sunrise).utcOffset(data.timezone / 60).format('H.mm');
-    sunset_dt = moment.unix(data.sys.sunset).utcOffset(data.timezone / 60).format('H.mm');
+    sunrise_dt = moment
+      .unix(data.sys.sunrise)
+      .utcOffset(data.timezone / 60)
+      .format('H.mm');
+    sunset_dt = moment
+      .unix(data.sys.sunset)
+      .utcOffset(data.timezone / 60)
+      .format('H.mm');
     temp_now = Math.round(data.main.temp * 10) / 10;
     weather_id = data.weather[0].id;
   } else {
-    error = "Location not found";
+    error = 'Location not found';
   }
 
   return {

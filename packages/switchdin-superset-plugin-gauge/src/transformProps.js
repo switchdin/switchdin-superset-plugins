@@ -1,19 +1,9 @@
 export default function transformProps(chartProps) {
-  const { width, 
-          height, 
-          formData, 
-          payload } = chartProps;
+  const { width, height, formData, queryData } = chartProps;
 
-  const { metric,
-          vizType,
-          yAxisFormat,
-          timeRange,
-          colorScheme,
-          subheader = '',
-        } = formData;
+  const { metric, vizType, yAxisFormat, timeRange, colorScheme, subheader = '' } = formData;
 
-  const { data 
-        } = payload;
+  const { data } = queryData;
 
   return {
     width,
@@ -23,5 +13,5 @@ export default function transformProps(chartProps) {
     yAxisFormat,
     data,
     subheader,
-  }
+  };
 }

@@ -1,19 +1,16 @@
 export default function transformProps(chartProps) {
-  const { width, 
-          height, 
-          formData, 
-          payload } = chartProps;
+  const { width, height, formData, queryData } = chartProps;
 
-  const { vizType,
-          yAxisFormat,
-          timeRange,
-          colorScheme,
-          subheader = '',
-          imageSelectionControl,
-        } = formData;
+  const {
+    vizType,
+    yAxisFormat,
+    timeRange,
+    colorScheme,
+    subheader = '',
+    imageSelectionControl,
+  } = formData;
 
-  const { data 
-        } = payload;
+  const { data } = queryData;
 
   // This chart is only good for 1 number.
   let formattedSubheader = subheader;
@@ -28,5 +25,5 @@ export default function transformProps(chartProps) {
     yAxisFormat,
     imageFile: imageSelectionControl,
     data: result,
-  }
+  };
 }
