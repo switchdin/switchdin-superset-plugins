@@ -2,4 +2,3 @@
 node_modules
 esm/
 lib/
-package-lock.json
