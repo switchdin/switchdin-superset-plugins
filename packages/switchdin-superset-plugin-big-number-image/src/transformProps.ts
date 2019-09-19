@@ -2,11 +2,19 @@ import { getNumberFormatter } from '@superset-ui/number-format';
 import { renderTooltipFactory } from './BigNumberImage';
 
 export default function transformProps(chartProps) {
-  const { width, height, formData, payload } = chartProps;
+  const { width, height, formData, queryData } = chartProps;
 
-  const { subheader = '', imageSelectionControl, imagePositionControl, timeRange, metric, yAxisFormat, colorScheme } = formData;
+  const {
+    subheader = '',
+    imageSelectionControl,
+    imagePositionControl,
+    timeRange,
+    metric,
+    yAxisFormat,
+    colorScheme,
+  } = formData;
 
-  const { data } = payload;
+  const { data } = queryData;
 
   const metricName = metric && metric.label ? metric.label : metric;
   let bigNumber = data[0][metricName];

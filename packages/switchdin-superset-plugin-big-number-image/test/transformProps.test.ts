@@ -17,7 +17,7 @@ describe('WordCloud tranformProps', () => {
     formData,
     width: 800,
     height: 600,
-    payload: {
+    queryData: {
       data: [{ name: 'Hulk', sum__num: 1 }],
     },
   });
@@ -29,7 +29,7 @@ describe('WordCloud tranformProps', () => {
       height: 600,
       rotation: 'square',
       sizeRange: [10, 70],
-      data: [{ size: 1, text: 'Hulk' }],
+      queryData: [{ size: 1, text: 'Hulk' }],
     });
   });
 });
